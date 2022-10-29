@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.N1 = new System.Windows.Forms.TextBox();
             this.V1 = new System.Windows.Forms.TextBox();
             this.N2 = new System.Windows.Forms.TextBox();
@@ -55,6 +56,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.Clear = new System.Windows.Forms.Button();
             this.Exit = new System.Windows.Forms.Button();
+            this.Lang = new System.Windows.Forms.ComboBox();
+            this.check = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -204,7 +207,7 @@
             // 
             // N10
             // 
-            this.N10.Location = new System.Drawing.Point(18, 399);
+            this.N10.Location = new System.Drawing.Point(18, 395);
             this.N10.MaxLength = 5;
             this.N10.Name = "N10";
             this.N10.Size = new System.Drawing.Size(75, 22);
@@ -212,7 +215,7 @@
             // 
             // V10
             // 
-            this.V10.Location = new System.Drawing.Point(111, 399);
+            this.V10.Location = new System.Drawing.Point(111, 395);
             this.V10.MaxLength = 1;
             this.V10.Name = "V10";
             this.V10.Size = new System.Drawing.Size(40, 22);
@@ -221,31 +224,31 @@
             // Nomreh
             // 
             this.Nomreh.AutoSize = true;
-            this.Nomreh.Font = new System.Drawing.Font("B Nazanin", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.Nomreh.Location = new System.Drawing.Point(37, 8);
+            this.Nomreh.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Nomreh.Location = new System.Drawing.Point(31, 12);
             this.Nomreh.Name = "Nomreh";
-            this.Nomreh.Size = new System.Drawing.Size(39, 29);
+            this.Nomreh.Size = new System.Drawing.Size(36, 21);
             this.Nomreh.TabIndex = 20;
             this.Nomreh.Text = "نمره";
             // 
             // Vahed
             // 
             this.Vahed.AutoSize = true;
-            this.Vahed.Font = new System.Drawing.Font("B Nazanin", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.Vahed.Location = new System.Drawing.Point(108, 8);
+            this.Vahed.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Vahed.Location = new System.Drawing.Point(111, 12);
             this.Vahed.Name = "Vahed";
-            this.Vahed.Size = new System.Drawing.Size(43, 29);
+            this.Vahed.Size = new System.Drawing.Size(37, 21);
             this.Vahed.TabIndex = 21;
             this.Vahed.Text = "واحد";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Navy;
-            this.button1.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.button1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Location = new System.Drawing.Point(96, 482);
+            this.button1.Location = new System.Drawing.Point(92, 482);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 37);
+            this.button1.Size = new System.Drawing.Size(110, 37);
             this.button1.TabIndex = 22;
             this.button1.Text = "محاسبه";
             this.button1.UseVisualStyleBackColor = false;
@@ -273,7 +276,7 @@
             // Clear
             // 
             this.Clear.BackColor = System.Drawing.Color.OrangeRed;
-            this.Clear.Font = new System.Drawing.Font("B Nazanin", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Clear.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Clear.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Clear.Location = new System.Drawing.Point(7, 482);
             this.Clear.Name = "Clear";
@@ -289,20 +292,46 @@
             this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit.Font = new System.Drawing.Font("B Nazanin", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Exit.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Exit.Location = new System.Drawing.Point(176, 3);
+            this.Exit.Location = new System.Drawing.Point(174, 2);
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(27, 26);
+            this.Exit.Size = new System.Drawing.Size(31, 27);
             this.Exit.TabIndex = 26;
             this.Exit.Text = "X";
             this.Exit.UseVisualStyleBackColor = false;
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
+            // Lang
+            // 
+            this.Lang.FormattingEnabled = true;
+            this.Lang.Items.AddRange(new object[] {
+            "فارسی - Persian",
+            "English"});
+            this.Lang.Location = new System.Drawing.Point(8, 524);
+            this.Lang.Name = "Lang";
+            this.Lang.Size = new System.Drawing.Size(157, 24);
+            this.Lang.TabIndex = 27;
+            this.Lang.Text = "انتخاب زبان - Language";
+            // 
+            // check
+            // 
+            this.check.BackColor = System.Drawing.Color.SpringGreen;
+            this.check.Location = new System.Drawing.Point(171, 524);
+            this.check.Name = "check";
+            this.check.Size = new System.Drawing.Size(27, 24);
+            this.check.TabIndex = 28;
+            this.check.Text = "✔️";
+            this.check.UseVisualStyleBackColor = false;
+            this.check.Click += new System.EventHandler(this.check_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(207, 529);
+            this.ClientSize = new System.Drawing.Size(207, 555);
+            this.Controls.Add(this.check);
+            this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.Clear);
             this.Controls.Add(this.panel1);
@@ -330,9 +359,12 @@
             this.Controls.Add(this.V1);
             this.Controls.Add(this.N1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "محاسبه معدل";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -369,6 +401,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button Clear;
         private System.Windows.Forms.Button Exit;
+        private System.Windows.Forms.ComboBox Lang;
+        private System.Windows.Forms.Button check;
     }
 }
 

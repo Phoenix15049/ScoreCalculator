@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
+using System.Runtime.InteropServices;
+
+
 namespace myfirstapp
 {
 
@@ -23,11 +26,41 @@ namespace myfirstapp
         {
             
             InitializeComponent();
+        
         }
+
+
+
+
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HT_CAPTION = 0x2;
+
+        [DllImportAttribute("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd,
+                         int Msg, int wParam, int lParam);
+        [DllImportAttribute("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+
+
+
+        public void Form1_MouseDown(object sender,
+        System.Windows.Forms.MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+                SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+            }
+        }
+
+
+
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            Lang.SelectedItem = Lang.Items[0];
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -306,6 +339,33 @@ namespace myfirstapp
             V8.Text = "";
             V9.Text = "";
             V10.Text = "";
+
+            Ans.Text = "";
+
+        }
+
+        private void check_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Test");
+
+            if (Lang.SelectedItem.ToString()=="فارسی - Persian")
+            {
+                Console.WriteLine("FARS");
+                Vahed.Text = "واحد";
+                Nomreh.Text = "نمره";
+                Clear.Text = "پاکسازی ";
+                button1.Text = "محاسبه";
+
+            }
+            else if (Lang.SelectedItem.ToString()=="English")
+            {
+                Console.WriteLine("ENG");
+                Vahed.Text = "Units";
+                Nomreh.Text = "Scores";
+                Clear.Text = "Clear";
+                button1.Text = "Calculate";
+
+            }
         }
     }
 }
