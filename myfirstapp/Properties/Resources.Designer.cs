@@ -63,16 +63,6 @@ namespace myfirstapp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Ceins2 {
-            get {
-                object obj = ResourceManager.GetObject("Ceins2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap King_Boy {
             get {
                 object obj = ResourceManager.GetObject("King_Boy", resourceCulture);

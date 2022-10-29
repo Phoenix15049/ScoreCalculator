@@ -262,7 +262,7 @@ namespace myfirstapp
 
             for (int i = 0; i < 10; i++)
             {
-                SumN += Scores[i];
+                SumN += Scores[i] * Vaheds[i];
                 SumV += Vaheds[i];
             }
 

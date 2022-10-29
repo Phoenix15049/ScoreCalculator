@@ -255,7 +255,7 @@
             // 
             this.Ans.AutoSize = true;
             this.Ans.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ans.Location = new System.Drawing.Point(4, 3);
+            this.Ans.Location = new System.Drawing.Point(11, 7);
             this.Ans.Name = "Ans";
             this.Ans.Size = new System.Drawing.Size(0, 19);
             this.Ans.TabIndex = 23;
