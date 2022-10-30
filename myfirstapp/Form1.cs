@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
+using IronPython;
 using System.Runtime.InteropServices;
 
 
@@ -17,6 +17,10 @@ namespace myfirstapp
 
     public partial class Form1 : Form
     {
+        public List<Panel> listPanel = new List<Panel>();
+
+        public int PageIndex;
+
         public double[] Scores = new double[10];
 
         public int[] Vaheds = new int[10];
@@ -61,6 +65,23 @@ namespace myfirstapp
         private void Form1_Load(object sender, EventArgs e)
         {
             Lang.SelectedItem = Lang.Items[0];
+
+            listPanel.Add(Page1);
+            listPanel.Add(Page2);
+            listPanel[PageIndex].BringToFront();
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -365,6 +386,27 @@ namespace myfirstapp
                 Clear.Text = "Clear";
                 button1.Text = "Calculate";
 
+            }
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Prev_Click(object sender, EventArgs e)
+        {
+            if (PageIndex>0 )
+            {
+                listPanel[--PageIndex].BringToFront();
+            }
+        }
+
+        private void Next_Click(object sender, EventArgs e)
+        {
+            if (PageIndex < listPanel.Count - 1)
+            {
+                listPanel[++PageIndex].BringToFront();
             }
         }
     }
