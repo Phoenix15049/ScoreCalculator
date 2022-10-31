@@ -60,17 +60,24 @@
             this.check = new System.Windows.Forms.Button();
             this.Page1 = new System.Windows.Forms.Panel();
             this.Page2 = new System.Windows.Forms.Panel();
-            this.Test = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.CalAns = new System.Windows.Forms.Label();
+            this.CalClear = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.AnsBox = new System.Windows.Forms.TextBox();
+            this.Expbox = new System.Windows.Forms.TextBox();
+            this.Calcul = new System.Windows.Forms.Button();
+            this.Test = new System.Windows.Forms.Label();
             this.Prev = new System.Windows.Forms.Button();
             this.Next = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Page1.SuspendLayout();
             this.Page2.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // N1
@@ -380,59 +387,187 @@
             // 
             // Page2
             // 
-            this.Page2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.Page2.Controls.Add(this.Test);
-            this.Page2.Controls.Add(this.button2);
+            this.Page2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Page2.Controls.Add(this.button5);
+            this.Page2.Controls.Add(this.button6);
+            this.Page2.Controls.Add(this.button7);
+            this.Page2.Controls.Add(this.button4);
             this.Page2.Controls.Add(this.button3);
-            this.Page2.Controls.Add(this.panel3);
+            this.Page2.Controls.Add(this.button2);
+            this.Page2.Controls.Add(this.CalClear);
+            this.Page2.Controls.Add(this.panel2);
+            this.Page2.Controls.Add(this.Calcul);
+            this.Page2.Controls.Add(this.Test);
             this.Page2.Location = new System.Drawing.Point(3, 35);
             this.Page2.Name = "Page2";
             this.Page2.Size = new System.Drawing.Size(200, 490);
             this.Page2.TabIndex = 30;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button5.Image = global::myfirstapp.Properties.Resources.Jam1;
+            this.button5.Location = new System.Drawing.Point(131, 253);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(50, 41);
+            this.button5.TabIndex = 35;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button6.Image = global::myfirstapp.Properties.Resources.Zarb;
+            this.button6.Location = new System.Drawing.Point(72, 253);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(50, 41);
+            this.button6.TabIndex = 34;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.button7.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button7.Image = global::myfirstapp.Properties.Resources.Menha1;
+            this.button7.Location = new System.Drawing.Point(12, 253);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(50, 41);
+            this.button7.TabIndex = 33;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button4.Image = global::myfirstapp.Properties.Resources.Jam1;
+            this.button4.Location = new System.Drawing.Point(131, 300);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(50, 41);
+            this.button4.TabIndex = 32;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button3.Image = global::myfirstapp.Properties.Resources.Zarb;
+            this.button3.Location = new System.Drawing.Point(72, 300);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(50, 41);
+            this.button3.TabIndex = 31;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button2.Image = global::myfirstapp.Properties.Resources.Taghsim;
+            this.button2.Location = new System.Drawing.Point(12, 300);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(50, 41);
+            this.button2.TabIndex = 30;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // CalClear
+            // 
+            this.CalClear.BackColor = System.Drawing.Color.MidnightBlue;
+            this.CalClear.FlatAppearance.BorderSize = 0;
+            this.CalClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CalClear.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.CalClear.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.CalClear.Location = new System.Drawing.Point(4, 446);
+            this.CalClear.Name = "CalClear";
+            this.CalClear.Size = new System.Drawing.Size(80, 35);
+            this.CalClear.TabIndex = 29;
+            this.CalClear.Text = "پاکسازی ";
+            this.CalClear.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel2.Controls.Add(this.AnsBox);
+            this.panel2.Controls.Add(this.Expbox);
+            this.panel2.Location = new System.Drawing.Point(7, 355);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(187, 87);
+            this.panel2.TabIndex = 28;
+            // 
+            // AnsBox
+            // 
+            this.AnsBox.BackColor = System.Drawing.Color.SeaGreen;
+            this.AnsBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AnsBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AnsBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.AnsBox.Location = new System.Drawing.Point(3, 61);
+            this.AnsBox.Multiline = true;
+            this.AnsBox.Name = "AnsBox";
+            this.AnsBox.ReadOnly = true;
+            this.AnsBox.Size = new System.Drawing.Size(180, 26);
+            this.AnsBox.TabIndex = 1;
+            this.AnsBox.Text = "0";
+            // 
+            // Expbox
+            // 
+            this.Expbox.BackColor = System.Drawing.Color.SeaGreen;
+            this.Expbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Expbox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Expbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Expbox.Location = new System.Drawing.Point(3, 4);
+            this.Expbox.Multiline = true;
+            this.Expbox.Name = "Expbox";
+            this.Expbox.Size = new System.Drawing.Size(180, 51);
+            this.Expbox.TabIndex = 0;
+            // 
+            // Calcul
+            // 
+            this.Calcul.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Calcul.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.Calcul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Calcul.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Calcul.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Calcul.Location = new System.Drawing.Point(85, 446);
+            this.Calcul.Name = "Calcul";
+            this.Calcul.Size = new System.Drawing.Size(110, 35);
+            this.Calcul.TabIndex = 27;
+            this.Calcul.Text = "محاسبه";
+            this.Calcul.UseVisualStyleBackColor = false;
+            this.Calcul.Click += new System.EventHandler(this.Calcul_Click);
+            // 
             // Test
             // 
             this.Test.AutoSize = true;
             this.Test.Font = new System.Drawing.Font("Charlemagne Std", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Test.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.Test.Location = new System.Drawing.Point(6, 160);
             this.Test.Name = "Test";
             this.Test.Size = new System.Drawing.Size(182, 27);
             this.Test.TabIndex = 26;
             this.Test.Text = "TEST - PAGE 2";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.OrangeRed;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("B Koodak", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.Location = new System.Drawing.Point(5, 447);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 37);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "پاکسازی ";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.CalAns);
-            this.panel3.Location = new System.Drawing.Point(4, 392);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(187, 49);
-            this.panel3.TabIndex = 24;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // CalAns
-            // 
-            this.CalAns.AutoSize = true;
-            this.CalAns.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CalAns.Location = new System.Drawing.Point(11, 7);
-            this.CalAns.Name = "CalAns";
-            this.CalAns.Size = new System.Drawing.Size(0, 19);
-            this.CalAns.TabIndex = 23;
             // 
             // Prev
             // 
@@ -464,20 +599,6 @@
             this.Next.UseVisualStyleBackColor = false;
             this.Next.Click += new System.EventHandler(this.Next_Click);
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Navy;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("B Koodak", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button3.Location = new System.Drawing.Point(85, 447);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 37);
-            this.button3.TabIndex = 22;
-            this.button3.Text = "محاسبه";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -490,8 +611,8 @@
             this.Controls.Add(this.check);
             this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Page1);
             this.Controls.Add(this.Page2);
+            this.Controls.Add(this.Page1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -505,8 +626,8 @@
             this.Page1.PerformLayout();
             this.Page2.ResumeLayout(false);
             this.Page2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -544,12 +665,19 @@
         private System.Windows.Forms.Button check;
         private System.Windows.Forms.Panel Page1;
         private System.Windows.Forms.Panel Page2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label CalAns;
         private System.Windows.Forms.Button Prev;
         private System.Windows.Forms.Button Next;
         private System.Windows.Forms.Label Test;
+        private System.Windows.Forms.Button CalClear;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button Calcul;
+        private System.Windows.Forms.TextBox Expbox;
+        private System.Windows.Forms.TextBox AnsBox;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
     }
 }

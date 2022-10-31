@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using AngouriMath;
+using AngouriMath.Extensions;
 using IronPython;
 using System.Runtime.InteropServices;
-
+using System.Linq.Expressions;
 
 namespace myfirstapp
 {
@@ -25,6 +26,7 @@ namespace myfirstapp
 
         public int[] Vaheds = new int[10];
 
+        
 
         public Form1()
         {
@@ -34,7 +36,7 @@ namespace myfirstapp
         }
 
 
-
+        
 
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -409,5 +411,36 @@ namespace myfirstapp
                 listPanel[++PageIndex].BringToFront();
             }
         }
+
+        private void Calcul_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine(Expbox.Text);
+            
+            try
+            {
+                AnsBox.ForeColor = Color.FromArgb(0, 64, 0);
+                Entity exp = Expbox.Text;
+                AnsBox.Text = Convert.ToString(exp.EvalNumerical());
+            }
+            catch (AngouriMath.Core.Exceptions.UnhandledParseException )
+            {
+                AnsBox.ForeColor = Color.Red;
+                AnsBox.Text = "Invalid expression";
+            }
+            
+            
+
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
 }
