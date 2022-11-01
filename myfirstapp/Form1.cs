@@ -74,7 +74,7 @@ namespace myfirstapp
             listPanel.Add(Page2);
             listPanel[PageIndex].BringToFront();
 
-            IronPython2();
+            
 
 
 
@@ -473,7 +473,7 @@ namespace myfirstapp
 
 
 
-        static void IronPython2()
+        static String IronPython2(String inp)
         {
             var engine = Python.CreateEngine();
 
@@ -483,7 +483,7 @@ namespace myfirstapp
             var argv = new List<string>();
 
             argv.Add("");
-            argv.Add("TEST PRINT !");
+            argv.Add(inp);
 
             engine.GetSysModule().SetVariable("argv", argv);
 
@@ -506,7 +506,7 @@ namespace myfirstapp
             Console.WriteLine("Results : ");
             Console.WriteLine(str(results.ToArray()));
 
-
+            return (str(results.ToArray()));
         }
 
 
