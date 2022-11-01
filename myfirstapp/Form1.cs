@@ -12,6 +12,8 @@ using AngouriMath.Extensions;
 using IronPython;
 using System.Runtime.InteropServices;
 using System.Linq.Expressions;
+using IronPython.Hosting;
+using System.IO;
 
 namespace myfirstapp
 {
@@ -72,7 +74,7 @@ namespace myfirstapp
             listPanel.Add(Page2);
             listPanel[PageIndex].BringToFront();
 
-
+            IronPython2();
 
 
 
@@ -467,5 +469,49 @@ namespace myfirstapp
             AnsBox.Text = "0";
             Expbox.Text = "";
         }
+
+
+
+
+        static void IronPython2()
+        {
+            var engine = Python.CreateEngine();
+
+            var script = @"G:\Projects\winapp1\myfirstapp\Resources\1.py";
+            var source = engine.CreateScriptSourceFromFile(script);
+
+            var argv = new List<string>();
+
+            argv.Add("");
+            argv.Add("TEST PRINT !");
+
+            engine.GetSysModule().SetVariable("argv", argv);
+
+            var eIO = engine.Runtime.IO;
+
+            var errors = new MemoryStream();
+            eIO.SetErrorOutput(errors, Encoding.Default);
+
+            var results = new MemoryStream();
+            eIO.SetOutput(results, Encoding.Default);
+
+            var scope = engine.CreateScope();
+            source.Execute(scope);
+
+            string str(byte[] x) => Encoding.Default.GetString(x);
+
+            Console.WriteLine("ERRORS : ");
+            Console.WriteLine(str(errors.ToArray()));
+            Console.WriteLine();
+            Console.WriteLine("Results : ");
+            Console.WriteLine(str(results.ToArray()));
+
+
+        }
+
+
+
+
+
     }
 }
