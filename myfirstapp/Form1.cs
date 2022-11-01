@@ -432,15 +432,40 @@ namespace myfirstapp
 
         }
 
+        private void Taghsim_Click(object sender, EventArgs e)
+        {
+            Expbox.Text += "/";
+        }
 
+        private void Zarb_Click(object sender, EventArgs e)
+        {
+            Expbox.Text += "*";
+        }
 
+        private void Jam_Click(object sender, EventArgs e)
+        {
+            Expbox.Text += "+";
+        }
 
+        private void Menha_Click(object sender, EventArgs e)
+        {
+            Expbox.Text += "-";
+        }
 
+        private void P_Baz_Click(object sender, EventArgs e)
+        {
+            Expbox.Text += "(";
+        }
 
+        private void P_Bste_Click(object sender, EventArgs e)
+        {
+            Expbox.Text += ")";
+        }
 
-
-
-
-
+        private void CalClear_Click(object sender, EventArgs e)
+        {
+            AnsBox.Text = "0";
+            Expbox.Text = "";
+        }
     }
 }

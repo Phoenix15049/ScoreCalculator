@@ -113,6 +113,26 @@ namespace myfirstapp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Prantez_baz {
+            get {
+                object obj = ResourceManager.GetObject("Prantez_baz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prantez_bste {
+            get {
+                object obj = ResourceManager.GetObject("Prantez_bste", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Taghsim {
             get {
                 object obj = ResourceManager.GetObject("Taghsim", resourceCulture);

@@ -60,20 +60,19 @@
             this.check = new System.Windows.Forms.Button();
             this.Page1 = new System.Windows.Forms.Panel();
             this.Page2 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.CalClear = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.AnsBox = new System.Windows.Forms.TextBox();
             this.Expbox = new System.Windows.Forms.TextBox();
             this.Calcul = new System.Windows.Forms.Button();
-            this.Test = new System.Windows.Forms.Label();
             this.Prev = new System.Windows.Forms.Button();
             this.Next = new System.Windows.Forms.Button();
+            this.P_Bste = new System.Windows.Forms.Button();
+            this.P_Baz = new System.Windows.Forms.Button();
+            this.Menha = new System.Windows.Forms.Button();
+            this.Jam = new System.Windows.Forms.Button();
+            this.Zarb = new System.Windows.Forms.Button();
+            this.Taghsim = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Page1.SuspendLayout();
             this.Page2.SuspendLayout();
@@ -388,110 +387,19 @@
             // Page2
             // 
             this.Page2.BackColor = System.Drawing.Color.MidnightBlue;
-            this.Page2.Controls.Add(this.button5);
-            this.Page2.Controls.Add(this.button6);
-            this.Page2.Controls.Add(this.button7);
-            this.Page2.Controls.Add(this.button4);
-            this.Page2.Controls.Add(this.button3);
-            this.Page2.Controls.Add(this.button2);
+            this.Page2.Controls.Add(this.P_Bste);
+            this.Page2.Controls.Add(this.P_Baz);
+            this.Page2.Controls.Add(this.Menha);
+            this.Page2.Controls.Add(this.Jam);
+            this.Page2.Controls.Add(this.Zarb);
+            this.Page2.Controls.Add(this.Taghsim);
             this.Page2.Controls.Add(this.CalClear);
             this.Page2.Controls.Add(this.panel2);
             this.Page2.Controls.Add(this.Calcul);
-            this.Page2.Controls.Add(this.Test);
             this.Page2.Location = new System.Drawing.Point(3, 35);
             this.Page2.Name = "Page2";
             this.Page2.Size = new System.Drawing.Size(200, 490);
             this.Page2.TabIndex = 30;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button5.Image = global::myfirstapp.Properties.Resources.Jam1;
-            this.button5.Location = new System.Drawing.Point(131, 253);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(50, 41);
-            this.button5.TabIndex = 35;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button6.Image = global::myfirstapp.Properties.Resources.Zarb;
-            this.button6.Location = new System.Drawing.Point(72, 253);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(50, 41);
-            this.button6.TabIndex = 34;
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
-            this.button7.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button7.Image = global::myfirstapp.Properties.Resources.Menha1;
-            this.button7.Location = new System.Drawing.Point(12, 253);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(50, 41);
-            this.button7.TabIndex = 33;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button4.Image = global::myfirstapp.Properties.Resources.Jam1;
-            this.button4.Location = new System.Drawing.Point(131, 300);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(50, 41);
-            this.button4.TabIndex = 32;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button3.Image = global::myfirstapp.Properties.Resources.Zarb;
-            this.button3.Location = new System.Drawing.Point(72, 300);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 41);
-            this.button3.TabIndex = 31;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button2.Image = global::myfirstapp.Properties.Resources.Taghsim;
-            this.button2.Location = new System.Drawing.Point(12, 300);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 41);
-            this.button2.TabIndex = 30;
-            this.button2.UseVisualStyleBackColor = false;
             // 
             // CalClear
             // 
@@ -506,6 +414,7 @@
             this.CalClear.TabIndex = 29;
             this.CalClear.Text = "پاکسازی ";
             this.CalClear.UseVisualStyleBackColor = false;
+            this.CalClear.Click += new System.EventHandler(this.CalClear_Click);
             // 
             // panel2
             // 
@@ -558,17 +467,6 @@
             this.Calcul.UseVisualStyleBackColor = false;
             this.Calcul.Click += new System.EventHandler(this.Calcul_Click);
             // 
-            // Test
-            // 
-            this.Test.AutoSize = true;
-            this.Test.Font = new System.Drawing.Font("Charlemagne Std", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Test.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.Test.Location = new System.Drawing.Point(6, 160);
-            this.Test.Name = "Test";
-            this.Test.Size = new System.Drawing.Size(182, 27);
-            this.Test.TabIndex = 26;
-            this.Test.Text = "TEST - PAGE 2";
-            // 
             // Prev
             // 
             this.Prev.BackColor = System.Drawing.Color.MidnightBlue;
@@ -599,6 +497,102 @@
             this.Next.UseVisualStyleBackColor = false;
             this.Next.Click += new System.EventHandler(this.Next_Click);
             // 
+            // P_Bste
+            // 
+            this.P_Bste.BackColor = System.Drawing.Color.MidnightBlue;
+            this.P_Bste.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.P_Bste.FlatAppearance.BorderSize = 0;
+            this.P_Bste.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.P_Bste.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.P_Bste.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.P_Bste.Image = global::myfirstapp.Properties.Resources.Prantez_bste;
+            this.P_Bste.Location = new System.Drawing.Point(137, 241);
+            this.P_Bste.Name = "P_Bste";
+            this.P_Bste.Size = new System.Drawing.Size(60, 50);
+            this.P_Bste.TabIndex = 35;
+            this.P_Bste.UseVisualStyleBackColor = false;
+            this.P_Bste.Click += new System.EventHandler(this.P_Bste_Click);
+            // 
+            // P_Baz
+            // 
+            this.P_Baz.BackColor = System.Drawing.Color.MidnightBlue;
+            this.P_Baz.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.P_Baz.FlatAppearance.BorderSize = 0;
+            this.P_Baz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.P_Baz.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.P_Baz.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.P_Baz.Image = global::myfirstapp.Properties.Resources.Prantez_baz;
+            this.P_Baz.Location = new System.Drawing.Point(71, 241);
+            this.P_Baz.Name = "P_Baz";
+            this.P_Baz.Size = new System.Drawing.Size(60, 50);
+            this.P_Baz.TabIndex = 34;
+            this.P_Baz.UseVisualStyleBackColor = false;
+            this.P_Baz.Click += new System.EventHandler(this.P_Baz_Click);
+            // 
+            // Menha
+            // 
+            this.Menha.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Menha.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.Menha.FlatAppearance.BorderSize = 0;
+            this.Menha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Menha.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.Menha.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Menha.Image = global::myfirstapp.Properties.Resources.Menha1;
+            this.Menha.Location = new System.Drawing.Point(5, 241);
+            this.Menha.Name = "Menha";
+            this.Menha.Size = new System.Drawing.Size(60, 50);
+            this.Menha.TabIndex = 33;
+            this.Menha.UseVisualStyleBackColor = false;
+            this.Menha.Click += new System.EventHandler(this.Menha_Click);
+            // 
+            // Jam
+            // 
+            this.Jam.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Jam.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.Jam.FlatAppearance.BorderSize = 0;
+            this.Jam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Jam.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.Jam.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Jam.Image = global::myfirstapp.Properties.Resources.Jam1;
+            this.Jam.Location = new System.Drawing.Point(137, 299);
+            this.Jam.Name = "Jam";
+            this.Jam.Size = new System.Drawing.Size(60, 50);
+            this.Jam.TabIndex = 32;
+            this.Jam.UseVisualStyleBackColor = false;
+            this.Jam.Click += new System.EventHandler(this.Jam_Click);
+            // 
+            // Zarb
+            // 
+            this.Zarb.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Zarb.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.Zarb.FlatAppearance.BorderSize = 0;
+            this.Zarb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Zarb.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.Zarb.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Zarb.Image = global::myfirstapp.Properties.Resources.Zarb;
+            this.Zarb.Location = new System.Drawing.Point(72, 299);
+            this.Zarb.Name = "Zarb";
+            this.Zarb.Size = new System.Drawing.Size(60, 50);
+            this.Zarb.TabIndex = 31;
+            this.Zarb.UseVisualStyleBackColor = false;
+            this.Zarb.Click += new System.EventHandler(this.Zarb_Click);
+            // 
+            // Taghsim
+            // 
+            this.Taghsim.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Taghsim.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.Taghsim.FlatAppearance.BorderSize = 0;
+            this.Taghsim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Taghsim.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
+            this.Taghsim.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Taghsim.Image = global::myfirstapp.Properties.Resources.Taghsim;
+            this.Taghsim.Location = new System.Drawing.Point(5, 300);
+            this.Taghsim.Name = "Taghsim";
+            this.Taghsim.Size = new System.Drawing.Size(60, 50);
+            this.Taghsim.TabIndex = 30;
+            this.Taghsim.UseVisualStyleBackColor = false;
+            this.Taghsim.Click += new System.EventHandler(this.Taghsim_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -625,7 +619,6 @@
             this.Page1.ResumeLayout(false);
             this.Page1.PerformLayout();
             this.Page2.ResumeLayout(false);
-            this.Page2.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -667,18 +660,17 @@
         private System.Windows.Forms.Panel Page2;
         private System.Windows.Forms.Button Prev;
         private System.Windows.Forms.Button Next;
-        private System.Windows.Forms.Label Test;
         private System.Windows.Forms.Button CalClear;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button Calcul;
         private System.Windows.Forms.TextBox Expbox;
         private System.Windows.Forms.TextBox AnsBox;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Taghsim;
+        private System.Windows.Forms.Button P_Bste;
+        private System.Windows.Forms.Button P_Baz;
+        private System.Windows.Forms.Button Menha;
+        private System.Windows.Forms.Button Jam;
+        private System.Windows.Forms.Button Zarb;
     }
 }
 
