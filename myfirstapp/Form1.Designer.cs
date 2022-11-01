@@ -60,6 +60,12 @@
             this.check = new System.Windows.Forms.Button();
             this.Page1 = new System.Windows.Forms.Panel();
             this.Page2 = new System.Windows.Forms.Panel();
+            this.P_Bste = new System.Windows.Forms.Button();
+            this.P_Baz = new System.Windows.Forms.Button();
+            this.Menha = new System.Windows.Forms.Button();
+            this.Jam = new System.Windows.Forms.Button();
+            this.Zarb = new System.Windows.Forms.Button();
+            this.Taghsim = new System.Windows.Forms.Button();
             this.CalClear = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.AnsBox = new System.Windows.Forms.TextBox();
@@ -67,12 +73,6 @@
             this.Calcul = new System.Windows.Forms.Button();
             this.Prev = new System.Windows.Forms.Button();
             this.Next = new System.Windows.Forms.Button();
-            this.P_Bste = new System.Windows.Forms.Button();
-            this.P_Baz = new System.Windows.Forms.Button();
-            this.Menha = new System.Windows.Forms.Button();
-            this.Jam = new System.Windows.Forms.Button();
-            this.Zarb = new System.Windows.Forms.Button();
-            this.Taghsim = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Page1.SuspendLayout();
             this.Page2.SuspendLayout();
@@ -293,7 +293,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.SeaGreen;
             this.panel1.Controls.Add(this.Ans);
-            this.panel1.Location = new System.Drawing.Point(4, 392);
+            this.panel1.Location = new System.Drawing.Point(7, 393);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(187, 49);
             this.panel1.TabIndex = 24;
@@ -401,102 +401,6 @@
             this.Page2.Size = new System.Drawing.Size(200, 490);
             this.Page2.TabIndex = 30;
             // 
-            // CalClear
-            // 
-            this.CalClear.BackColor = System.Drawing.Color.MidnightBlue;
-            this.CalClear.FlatAppearance.BorderSize = 0;
-            this.CalClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CalClear.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.CalClear.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.CalClear.Location = new System.Drawing.Point(4, 446);
-            this.CalClear.Name = "CalClear";
-            this.CalClear.Size = new System.Drawing.Size(80, 35);
-            this.CalClear.TabIndex = 29;
-            this.CalClear.Text = "پاکسازی ";
-            this.CalClear.UseVisualStyleBackColor = false;
-            this.CalClear.Click += new System.EventHandler(this.CalClear_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.SeaGreen;
-            this.panel2.Controls.Add(this.AnsBox);
-            this.panel2.Controls.Add(this.Expbox);
-            this.panel2.Location = new System.Drawing.Point(7, 355);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(187, 87);
-            this.panel2.TabIndex = 28;
-            // 
-            // AnsBox
-            // 
-            this.AnsBox.BackColor = System.Drawing.Color.SeaGreen;
-            this.AnsBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AnsBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AnsBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.AnsBox.Location = new System.Drawing.Point(3, 61);
-            this.AnsBox.Multiline = true;
-            this.AnsBox.Name = "AnsBox";
-            this.AnsBox.ReadOnly = true;
-            this.AnsBox.Size = new System.Drawing.Size(180, 26);
-            this.AnsBox.TabIndex = 1;
-            this.AnsBox.Text = "0";
-            // 
-            // Expbox
-            // 
-            this.Expbox.BackColor = System.Drawing.Color.SeaGreen;
-            this.Expbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Expbox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Expbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.Expbox.Location = new System.Drawing.Point(3, 4);
-            this.Expbox.Multiline = true;
-            this.Expbox.Name = "Expbox";
-            this.Expbox.Size = new System.Drawing.Size(180, 51);
-            this.Expbox.TabIndex = 0;
-            // 
-            // Calcul
-            // 
-            this.Calcul.BackColor = System.Drawing.Color.MidnightBlue;
-            this.Calcul.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.Calcul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Calcul.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.Calcul.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Calcul.Location = new System.Drawing.Point(85, 446);
-            this.Calcul.Name = "Calcul";
-            this.Calcul.Size = new System.Drawing.Size(110, 35);
-            this.Calcul.TabIndex = 27;
-            this.Calcul.Text = "محاسبه";
-            this.Calcul.UseVisualStyleBackColor = false;
-            this.Calcul.Click += new System.EventHandler(this.Calcul_Click);
-            // 
-            // Prev
-            // 
-            this.Prev.BackColor = System.Drawing.Color.MidnightBlue;
-            this.Prev.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.Prev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Prev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Prev.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Prev.Location = new System.Drawing.Point(25, 1);
-            this.Prev.Name = "Prev";
-            this.Prev.Size = new System.Drawing.Size(40, 30);
-            this.Prev.TabIndex = 31;
-            this.Prev.Text = "🢀";
-            this.Prev.UseVisualStyleBackColor = false;
-            this.Prev.Click += new System.EventHandler(this.Prev_Click);
-            // 
-            // Next
-            // 
-            this.Next.BackColor = System.Drawing.Color.MidnightBlue;
-            this.Next.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.Next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Next.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Next.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Next.Location = new System.Drawing.Point(71, 1);
-            this.Next.Name = "Next";
-            this.Next.Size = new System.Drawing.Size(40, 30);
-            this.Next.TabIndex = 32;
-            this.Next.Text = "🢂";
-            this.Next.UseVisualStyleBackColor = false;
-            this.Next.Click += new System.EventHandler(this.Next_Click);
-            // 
             // P_Bste
             // 
             this.P_Bste.BackColor = System.Drawing.Color.MidnightBlue;
@@ -593,6 +497,102 @@
             this.Taghsim.UseVisualStyleBackColor = false;
             this.Taghsim.Click += new System.EventHandler(this.Taghsim_Click);
             // 
+            // CalClear
+            // 
+            this.CalClear.BackColor = System.Drawing.Color.MidnightBlue;
+            this.CalClear.FlatAppearance.BorderSize = 0;
+            this.CalClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CalClear.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.CalClear.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.CalClear.Location = new System.Drawing.Point(4, 446);
+            this.CalClear.Name = "CalClear";
+            this.CalClear.Size = new System.Drawing.Size(80, 35);
+            this.CalClear.TabIndex = 29;
+            this.CalClear.Text = "پاکسازی ";
+            this.CalClear.UseVisualStyleBackColor = false;
+            this.CalClear.Click += new System.EventHandler(this.CalClear_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel2.Controls.Add(this.AnsBox);
+            this.panel2.Controls.Add(this.Expbox);
+            this.panel2.Location = new System.Drawing.Point(7, 355);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(187, 87);
+            this.panel2.TabIndex = 28;
+            // 
+            // AnsBox
+            // 
+            this.AnsBox.BackColor = System.Drawing.Color.SeaGreen;
+            this.AnsBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AnsBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AnsBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.AnsBox.Location = new System.Drawing.Point(3, 61);
+            this.AnsBox.Multiline = true;
+            this.AnsBox.Name = "AnsBox";
+            this.AnsBox.ReadOnly = true;
+            this.AnsBox.Size = new System.Drawing.Size(180, 26);
+            this.AnsBox.TabIndex = 1;
+            this.AnsBox.Text = "0";
+            // 
+            // Expbox
+            // 
+            this.Expbox.BackColor = System.Drawing.Color.SeaGreen;
+            this.Expbox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Expbox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Expbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Expbox.Location = new System.Drawing.Point(3, 4);
+            this.Expbox.Multiline = true;
+            this.Expbox.Name = "Expbox";
+            this.Expbox.Size = new System.Drawing.Size(180, 51);
+            this.Expbox.TabIndex = 0;
+            // 
+            // Calcul
+            // 
+            this.Calcul.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Calcul.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.Calcul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Calcul.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.Calcul.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Calcul.Location = new System.Drawing.Point(85, 446);
+            this.Calcul.Name = "Calcul";
+            this.Calcul.Size = new System.Drawing.Size(110, 35);
+            this.Calcul.TabIndex = 27;
+            this.Calcul.Text = "محاسبه";
+            this.Calcul.UseVisualStyleBackColor = false;
+            this.Calcul.Click += new System.EventHandler(this.Calcul_Click);
+            // 
+            // Prev
+            // 
+            this.Prev.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Prev.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.Prev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Prev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Prev.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Prev.Location = new System.Drawing.Point(25, 1);
+            this.Prev.Name = "Prev";
+            this.Prev.Size = new System.Drawing.Size(40, 30);
+            this.Prev.TabIndex = 31;
+            this.Prev.Text = "🢀";
+            this.Prev.UseVisualStyleBackColor = false;
+            this.Prev.Click += new System.EventHandler(this.Prev_Click);
+            // 
+            // Next
+            // 
+            this.Next.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Next.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.Next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Next.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Next.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Next.Location = new System.Drawing.Point(71, 1);
+            this.Next.Name = "Next";
+            this.Next.Size = new System.Drawing.Size(40, 30);
+            this.Next.TabIndex = 32;
+            this.Next.Text = "🢂";
+            this.Next.UseVisualStyleBackColor = false;
+            this.Next.Click += new System.EventHandler(this.Next_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -605,8 +605,8 @@
             this.Controls.Add(this.check);
             this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Page2);
             this.Controls.Add(this.Page1);
+            this.Controls.Add(this.Page2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
