@@ -1,5 +1,9 @@
 import sys
-
 x = sys.argv[1]
 y = str(x)
-print("Printed : "+y)
+try:
+    z = eval(y)
+    z = str(z)
+    print(z)
+except:
+    pass

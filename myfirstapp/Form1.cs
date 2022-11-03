@@ -423,20 +423,39 @@ namespace myfirstapp
         private void Calcul_Click(object sender, EventArgs e)
         {
             Console.WriteLine(Expbox.Text);
-            
-            try
+
+
+
+            //#------------------------ C# Solver :            
+            //            try
+            //            {
+            //                AnsBox.ForeColor = Color.FromArgb(0, 64, 0);
+            //                Entity exp = Expbox.Text;
+            //                AnsBox.Text = Convert.ToString(exp.EvalNumerical());
+            //                Console.WriteLine(IronPython2(Expbox.Text));
+            //            }
+            //            catch (AngouriMath.Core.Exceptions.UnhandledParseException )
+            //            {
+            //                AnsBox.ForeColor = Color.Red;
+            //                AnsBox.Text = "Invalid expression";
+            //            }
+
+
+
+
+            //#------------------------ Python Solver :   
+            String CalpyAns = IronPython2(Expbox.Text);
+            if(CalpyAns != "")
             {
                 AnsBox.ForeColor = Color.FromArgb(0, 64, 0);
-                Entity exp = Expbox.Text;
-                AnsBox.Text = Convert.ToString(exp.EvalNumerical());
-                Console.WriteLine(IronPython2(Expbox.Text));
+                AnsBox.Text = CalpyAns;
             }
-            catch (AngouriMath.Core.Exceptions.UnhandledParseException )
+            else
             {
                 AnsBox.ForeColor = Color.Red;
                 AnsBox.Text = "Invalid expression";
             }
-            
+            Console.WriteLine(CalpyAns);
             
 
         }
