@@ -566,7 +566,15 @@ namespace myfirstapp
             eIO.SetOutput(results, Encoding.Default);
 
             var scope = engine.CreateScope();
-            source.Execute(scope);
+            try
+            {
+                source.Execute(scope);
+            }
+            catch (IronPython.Runtime.Exceptions.ImportException )
+            {
+                Console.WriteLine("Fucked !");
+            }
+            
 
             string str(byte[] x) => Encoding.Default.GetString(x);
 

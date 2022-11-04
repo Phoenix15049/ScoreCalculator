@@ -1,5 +1,5 @@
-import imp
 import sys
+from sys import *
 x = sys.argv[1]
 
 y = str(x)
@@ -10,5 +10,10 @@ try:
 except:
     pass
 
-sys.path.append(r'C:\Python27\Lib\site-packages')
+sys.path.append(r'G:\\Projects\\winapp1\\packages\\IronPython.2.7.12\\lib')
 from sympy import *
+
+
+
+
+
