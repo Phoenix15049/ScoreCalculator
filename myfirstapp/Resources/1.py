@@ -10,5 +10,3 @@ try:
 except:
     pass
 
-sys.path.append(r'C:\Python27\Lib\site-packages')
-from sympy import *
