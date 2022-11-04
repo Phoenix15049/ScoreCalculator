@@ -73,6 +73,7 @@ namespace myfirstapp
 
             listPanel.Add(Page1);
             listPanel.Add(Page2);
+            listPanel.Add(Page3);
             listPanel[PageIndex].BringToFront();
 
             
@@ -385,8 +386,12 @@ namespace myfirstapp
                 Console.WriteLine("FARS");
                 Vahed.Text = "واحد";
                 Nomreh.Text = "نمره";
-                Clear.Text = "پاکسازی ";
+                Clear.Text = "پاکسازی";
                 button1.Text = "محاسبه";
+                Calcul.Text = "محاسبه";
+                CalClear.Text = "پاکسازی";
+                EquCleaner.Text = "پاکسازی";
+                EquSolver.Text = "محاسبه";
 
             }
             else if (Lang.SelectedItem.ToString()=="English")
@@ -396,14 +401,14 @@ namespace myfirstapp
                 Nomreh.Text = "Scores";
                 Clear.Text = "Clear";
                 button1.Text = "Calculate";
-
+                Calcul.Text = "Calculate";
+                CalClear.Text = "Clear";
+                EquCleaner.Text = "Clear";
+                EquSolver.Text = "Calculate";
             }
         }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
+        
 
         private void Prev_Click(object sender, EventArgs e)
         {
@@ -495,6 +500,7 @@ namespace myfirstapp
         {
             AnsBox.Text = "0";
             Expbox.Text = "";
+            AnsBox.ForeColor = Color.FromArgb(0, 64, 0);
         }
 
 
@@ -586,10 +592,45 @@ namespace myfirstapp
 
             return (str(results.ToArray()));
         }
+
+
         //-------------------------(Runing .py files and using args of output)-------------------------//
 
 
 
 
+
+
+
+        //-------------------------(Equation Solving With AngouriMath)-------------------------//
+        private void EquSolver_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                RootsBox.ForeColor = Color.FromArgb(0, 64, 0);
+                String EquAnswer = EquBox.Text;
+                String FEquAnswer = (EquAnswer.Solve("x").ToString());
+                Console.WriteLine(FEquAnswer);
+                RootsBox.Text = FEquAnswer;
+            } catch (AngouriMath.Core.Exceptions.UnhandledParseException)
+            {
+                RootsBox.ForeColor = Color.Red;
+                Console.WriteLine("INVALID EQUATION!");
+                RootsBox.Text = "INVALID EQUATION!";
+            }
+            catch (AngouriMath.Core.Exceptions.SolveRequiresStatementException)
+            {
+                RootsBox.ForeColor = Color.Red;
+                Console.WriteLine("INVALID EQUATION!");
+                RootsBox.Text = "INVALID EQUATION!";
+            }
+        }
+
+        private void EquCleaner_Click(object sender, EventArgs e)
+        {
+            AnsBox.ForeColor = Color.FromArgb(0, 64, 0);
+            EquBox.Text = "";
+            RootsBox.Text = "0";
+        }
     }
 }
