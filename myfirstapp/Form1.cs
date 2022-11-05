@@ -607,9 +607,11 @@ namespace myfirstapp
         {
             try
             {
+                String RootVarText = (RootVarBox.Text);
+
                 RootsBox.ForeColor = Color.FromArgb(0, 64, 0);
                 String EquAnswer = EquBox.Text;
-                String FEquAnswer = (EquAnswer.Solve("x").ToString());
+                String FEquAnswer = (EquAnswer.Solve(RootVarText).ToString());
                 Console.WriteLine(FEquAnswer);
                 RootsBox.Text = FEquAnswer;
             } catch (AngouriMath.Core.Exceptions.UnhandledParseException)
@@ -631,6 +633,11 @@ namespace myfirstapp
             AnsBox.ForeColor = Color.FromArgb(0, 64, 0);
             EquBox.Text = "";
             RootsBox.Text = "0";
+        }
+
+        private void RootVarBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
