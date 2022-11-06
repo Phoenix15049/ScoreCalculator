@@ -74,13 +74,13 @@
             this.Prev = new System.Windows.Forms.Button();
             this.Next = new System.Windows.Forms.Button();
             this.Page3 = new System.Windows.Forms.Panel();
+            this.RootVarBox = new System.Windows.Forms.TextBox();
+            this.RootVarLabel = new System.Windows.Forms.Label();
             this.EquCleaner = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.RootsBox = new System.Windows.Forms.TextBox();
             this.EquBox = new System.Windows.Forms.TextBox();
             this.EquSolver = new System.Windows.Forms.Button();
-            this.RootVarLabel = new System.Windows.Forms.Label();
-            this.RootVarBox = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.Page1.SuspendLayout();
             this.Page2.SuspendLayout();
@@ -280,7 +280,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Location = new System.Drawing.Point(85, 446);
+            this.button1.Location = new System.Drawing.Point(284, 446);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 35);
             this.button1.TabIndex = 22;
@@ -303,9 +303,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.SeaGreen;
             this.panel1.Controls.Add(this.Ans);
-            this.panel1.Location = new System.Drawing.Point(7, 393);
+            this.panel1.Location = new System.Drawing.Point(7, 390);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(187, 49);
+            this.panel1.Size = new System.Drawing.Size(387, 49);
             this.panel1.TabIndex = 24;
             // 
             // Clear
@@ -315,7 +315,7 @@
             this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Clear.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Clear.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Clear.Location = new System.Drawing.Point(4, 446);
+            this.Clear.Location = new System.Drawing.Point(203, 446);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(80, 35);
             this.Clear.TabIndex = 25;
@@ -330,7 +330,7 @@
             this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit.Font = new System.Drawing.Font("B Nazanin", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Exit.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Exit.Location = new System.Drawing.Point(174, 2);
+            this.Exit.Location = new System.Drawing.Point(376, 2);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(31, 27);
             this.Exit.TabIndex = 26;
@@ -344,7 +344,7 @@
             this.Lang.Items.AddRange(new object[] {
             "فارسی - Persian",
             "English"});
-            this.Lang.Location = new System.Drawing.Point(8, 524);
+            this.Lang.Location = new System.Drawing.Point(11, 525);
             this.Lang.Name = "Lang";
             this.Lang.Size = new System.Drawing.Size(157, 24);
             this.Lang.TabIndex = 27;
@@ -354,7 +354,7 @@
             // 
             this.check.BackColor = System.Drawing.Color.SpringGreen;
             this.check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.check.Location = new System.Drawing.Point(171, 524);
+            this.check.Location = new System.Drawing.Point(171, 525);
             this.check.Name = "check";
             this.check.Size = new System.Drawing.Size(27, 24);
             this.check.TabIndex = 28;
@@ -364,6 +364,8 @@
             // 
             // Page1
             // 
+            this.Page1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Page1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Page1.Controls.Add(this.Nomreh);
             this.Page1.Controls.Add(this.N1);
             this.Page1.Controls.Add(this.V1);
@@ -389,14 +391,15 @@
             this.Page1.Controls.Add(this.N8);
             this.Page1.Controls.Add(this.N7);
             this.Page1.Controls.Add(this.V7);
-            this.Page1.Location = new System.Drawing.Point(3, 35);
+            this.Page1.Location = new System.Drawing.Point(8, 33);
             this.Page1.Name = "Page1";
-            this.Page1.Size = new System.Drawing.Size(200, 490);
+            this.Page1.Size = new System.Drawing.Size(399, 490);
             this.Page1.TabIndex = 29;
             // 
             // Page2
             // 
             this.Page2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Page2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Page2.Controls.Add(this.P_Bste);
             this.Page2.Controls.Add(this.P_Baz);
             this.Page2.Controls.Add(this.Menha);
@@ -406,9 +409,9 @@
             this.Page2.Controls.Add(this.CalClear);
             this.Page2.Controls.Add(this.panel2);
             this.Page2.Controls.Add(this.Calcul);
-            this.Page2.Location = new System.Drawing.Point(3, 35);
+            this.Page2.Location = new System.Drawing.Point(8, 33);
             this.Page2.Name = "Page2";
-            this.Page2.Size = new System.Drawing.Size(200, 490);
+            this.Page2.Size = new System.Drawing.Size(399, 490);
             this.Page2.TabIndex = 30;
             // 
             // P_Bste
@@ -420,7 +423,7 @@
             this.P_Bste.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.P_Bste.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.P_Bste.Image = global::myfirstapp.Properties.Resources.Prantez_bste;
-            this.P_Bste.Location = new System.Drawing.Point(137, 241);
+            this.P_Bste.Location = new System.Drawing.Point(333, 299);
             this.P_Bste.Name = "P_Bste";
             this.P_Bste.Size = new System.Drawing.Size(60, 50);
             this.P_Bste.TabIndex = 35;
@@ -436,7 +439,7 @@
             this.P_Baz.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.P_Baz.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.P_Baz.Image = global::myfirstapp.Properties.Resources.Prantez_baz;
-            this.P_Baz.Location = new System.Drawing.Point(71, 241);
+            this.P_Baz.Location = new System.Drawing.Point(267, 299);
             this.P_Baz.Name = "P_Baz";
             this.P_Baz.Size = new System.Drawing.Size(60, 50);
             this.P_Baz.TabIndex = 34;
@@ -452,7 +455,7 @@
             this.Menha.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Menha.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Menha.Image = global::myfirstapp.Properties.Resources.Menha1;
-            this.Menha.Location = new System.Drawing.Point(5, 241);
+            this.Menha.Location = new System.Drawing.Point(201, 299);
             this.Menha.Name = "Menha";
             this.Menha.Size = new System.Drawing.Size(60, 50);
             this.Menha.TabIndex = 33;
@@ -514,7 +517,7 @@
             this.CalClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CalClear.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.CalClear.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.CalClear.Location = new System.Drawing.Point(4, 446);
+            this.CalClear.Location = new System.Drawing.Point(198, 446);
             this.CalClear.Name = "CalClear";
             this.CalClear.Size = new System.Drawing.Size(80, 35);
             this.CalClear.TabIndex = 29;
@@ -527,9 +530,9 @@
             this.panel2.BackColor = System.Drawing.Color.SeaGreen;
             this.panel2.Controls.Add(this.AnsBox);
             this.panel2.Controls.Add(this.Expbox);
-            this.panel2.Location = new System.Drawing.Point(7, 355);
+            this.panel2.Location = new System.Drawing.Point(7, 352);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(187, 87);
+            this.panel2.Size = new System.Drawing.Size(384, 87);
             this.panel2.TabIndex = 28;
             // 
             // AnsBox
@@ -542,7 +545,7 @@
             this.AnsBox.Multiline = true;
             this.AnsBox.Name = "AnsBox";
             this.AnsBox.ReadOnly = true;
-            this.AnsBox.Size = new System.Drawing.Size(180, 26);
+            this.AnsBox.Size = new System.Drawing.Size(378, 26);
             this.AnsBox.TabIndex = 1;
             this.AnsBox.Text = "0";
             // 
@@ -555,7 +558,7 @@
             this.Expbox.Location = new System.Drawing.Point(3, 4);
             this.Expbox.Multiline = true;
             this.Expbox.Name = "Expbox";
-            this.Expbox.Size = new System.Drawing.Size(180, 51);
+            this.Expbox.Size = new System.Drawing.Size(378, 51);
             this.Expbox.TabIndex = 0;
             // 
             // Calcul
@@ -565,7 +568,7 @@
             this.Calcul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Calcul.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Calcul.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Calcul.Location = new System.Drawing.Point(85, 446);
+            this.Calcul.Location = new System.Drawing.Point(284, 446);
             this.Calcul.Name = "Calcul";
             this.Calcul.Size = new System.Drawing.Size(110, 35);
             this.Calcul.TabIndex = 27;
@@ -606,95 +609,16 @@
             // Page3
             // 
             this.Page3.BackColor = System.Drawing.Color.MidnightBlue;
-            this.Page3.Controls.Add(this.RootVarLabel);
+            this.Page3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Page3.Controls.Add(this.RootVarBox);
+            this.Page3.Controls.Add(this.RootVarLabel);
             this.Page3.Controls.Add(this.EquCleaner);
             this.Page3.Controls.Add(this.panel4);
             this.Page3.Controls.Add(this.EquSolver);
-            this.Page3.Location = new System.Drawing.Point(3, 35);
+            this.Page3.Location = new System.Drawing.Point(8, 33);
             this.Page3.Name = "Page3";
-            this.Page3.Size = new System.Drawing.Size(200, 490);
+            this.Page3.Size = new System.Drawing.Size(399, 490);
             this.Page3.TabIndex = 33;
-            // 
-            // EquCleaner
-            // 
-            this.EquCleaner.BackColor = System.Drawing.Color.MidnightBlue;
-            this.EquCleaner.FlatAppearance.BorderSize = 0;
-            this.EquCleaner.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EquCleaner.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.EquCleaner.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.EquCleaner.Location = new System.Drawing.Point(4, 446);
-            this.EquCleaner.Name = "EquCleaner";
-            this.EquCleaner.Size = new System.Drawing.Size(80, 35);
-            this.EquCleaner.TabIndex = 29;
-            this.EquCleaner.Text = "پاکسازی ";
-            this.EquCleaner.UseVisualStyleBackColor = false;
-            this.EquCleaner.Click += new System.EventHandler(this.EquCleaner_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.SeaGreen;
-            this.panel4.Controls.Add(this.RootsBox);
-            this.panel4.Controls.Add(this.EquBox);
-            this.panel4.Location = new System.Drawing.Point(7, 355);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(187, 87);
-            this.panel4.TabIndex = 28;
-            // 
-            // RootsBox
-            // 
-            this.RootsBox.BackColor = System.Drawing.Color.SeaGreen;
-            this.RootsBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.RootsBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RootsBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.RootsBox.Location = new System.Drawing.Point(3, 61);
-            this.RootsBox.Multiline = true;
-            this.RootsBox.Name = "RootsBox";
-            this.RootsBox.ReadOnly = true;
-            this.RootsBox.Size = new System.Drawing.Size(180, 26);
-            this.RootsBox.TabIndex = 1;
-            this.RootsBox.Text = "0";
-            // 
-            // EquBox
-            // 
-            this.EquBox.BackColor = System.Drawing.Color.SeaGreen;
-            this.EquBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.EquBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EquBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.EquBox.Location = new System.Drawing.Point(3, 4);
-            this.EquBox.Multiline = true;
-            this.EquBox.Name = "EquBox";
-            this.EquBox.Size = new System.Drawing.Size(180, 51);
-            this.EquBox.TabIndex = 0;
-            // 
-            // EquSolver
-            // 
-            this.EquSolver.BackColor = System.Drawing.Color.MidnightBlue;
-            this.EquSolver.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
-            this.EquSolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EquSolver.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.EquSolver.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.EquSolver.Location = new System.Drawing.Point(85, 446);
-            this.EquSolver.Name = "EquSolver";
-            this.EquSolver.Size = new System.Drawing.Size(110, 35);
-            this.EquSolver.TabIndex = 27;
-            this.EquSolver.Text = "محاسبه";
-            this.EquSolver.UseVisualStyleBackColor = false;
-            this.EquSolver.Click += new System.EventHandler(this.EquSolver_Click);
-            // 
-            // RootVarLabel
-            // 
-            this.RootVarLabel.AutoSize = true;
-            this.RootVarLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RootVarLabel.Font = new System.Drawing.Font("B Koodak", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RootVarLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.RootVarLabel.Location = new System.Drawing.Point(48, 315);
-            this.RootVarLabel.Name = "RootVarLabel";
-            this.RootVarLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.RootVarLabel.Size = new System.Drawing.Size(120, 29);
-            this.RootVarLabel.TabIndex = 39;
-            this.RootVarLabel.Text = "متغیر اصلی :";
-            this.RootVarLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RootVarBox
             // 
@@ -712,21 +636,101 @@
             this.RootVarBox.Text = "x";
             this.RootVarBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // RootVarLabel
+            // 
+            this.RootVarLabel.AutoSize = true;
+            this.RootVarLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RootVarLabel.Font = new System.Drawing.Font("B Koodak", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.RootVarLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
+            this.RootVarLabel.Location = new System.Drawing.Point(40, 315);
+            this.RootVarLabel.Name = "RootVarLabel";
+            this.RootVarLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RootVarLabel.Size = new System.Drawing.Size(98, 34);
+            this.RootVarLabel.TabIndex = 39;
+            this.RootVarLabel.Text = "متغیر اصلی :";
+            this.RootVarLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // EquCleaner
+            // 
+            this.EquCleaner.BackColor = System.Drawing.Color.MidnightBlue;
+            this.EquCleaner.FlatAppearance.BorderSize = 0;
+            this.EquCleaner.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EquCleaner.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.EquCleaner.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.EquCleaner.Location = new System.Drawing.Point(198, 445);
+            this.EquCleaner.Name = "EquCleaner";
+            this.EquCleaner.Size = new System.Drawing.Size(80, 35);
+            this.EquCleaner.TabIndex = 29;
+            this.EquCleaner.Text = "پاکسازی ";
+            this.EquCleaner.UseVisualStyleBackColor = false;
+            this.EquCleaner.Click += new System.EventHandler(this.EquCleaner_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel4.Controls.Add(this.RootsBox);
+            this.panel4.Controls.Add(this.EquBox);
+            this.panel4.Location = new System.Drawing.Point(7, 352);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(384, 87);
+            this.panel4.TabIndex = 28;
+            // 
+            // RootsBox
+            // 
+            this.RootsBox.BackColor = System.Drawing.Color.SeaGreen;
+            this.RootsBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.RootsBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RootsBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.RootsBox.Location = new System.Drawing.Point(3, 61);
+            this.RootsBox.Multiline = true;
+            this.RootsBox.Name = "RootsBox";
+            this.RootsBox.ReadOnly = true;
+            this.RootsBox.Size = new System.Drawing.Size(378, 26);
+            this.RootsBox.TabIndex = 1;
+            this.RootsBox.Text = "0";
+            // 
+            // EquBox
+            // 
+            this.EquBox.BackColor = System.Drawing.Color.SeaGreen;
+            this.EquBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EquBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EquBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.EquBox.Location = new System.Drawing.Point(3, 4);
+            this.EquBox.Multiline = true;
+            this.EquBox.Name = "EquBox";
+            this.EquBox.Size = new System.Drawing.Size(378, 51);
+            this.EquBox.TabIndex = 0;
+            // 
+            // EquSolver
+            // 
+            this.EquSolver.BackColor = System.Drawing.Color.MidnightBlue;
+            this.EquSolver.FlatAppearance.BorderColor = System.Drawing.Color.PaleTurquoise;
+            this.EquSolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EquSolver.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.EquSolver.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.EquSolver.Location = new System.Drawing.Point(284, 445);
+            this.EquSolver.Name = "EquSolver";
+            this.EquSolver.Size = new System.Drawing.Size(110, 35);
+            this.EquSolver.TabIndex = 27;
+            this.EquSolver.Text = "محاسبه";
+            this.EquSolver.UseVisualStyleBackColor = false;
+            this.EquSolver.Click += new System.EventHandler(this.EquSolver_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.MidnightBlue;
-            this.ClientSize = new System.Drawing.Size(207, 555);
+            this.ClientSize = new System.Drawing.Size(414, 555);
             this.Controls.Add(this.Next);
             this.Controls.Add(this.Prev);
             this.Controls.Add(this.check);
             this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
+            this.Controls.Add(this.Page1);
             this.Controls.Add(this.Page3);
             this.Controls.Add(this.Page2);
-            this.Controls.Add(this.Page1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";

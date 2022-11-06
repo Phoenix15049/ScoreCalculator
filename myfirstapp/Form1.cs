@@ -62,8 +62,7 @@ namespace myfirstapp
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-
-
+        
 
 
 
@@ -75,8 +74,6 @@ namespace myfirstapp
             listPanel.Add(Page2);
             listPanel.Add(Page3);
             listPanel[PageIndex].BringToFront();
-
-            
 
 
 
@@ -92,6 +89,8 @@ namespace myfirstapp
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+
             try
             {
                 if (V1.Text != "")
@@ -392,6 +391,9 @@ namespace myfirstapp
                 CalClear.Text = "پاکسازی";
                 EquCleaner.Text = "پاکسازی";
                 EquSolver.Text = "محاسبه";
+                RootVarLabel.Text = "متغیر اصلی :";
+                RootVarLabel.Font = new Font("B Koodak", 13);
+                RootVarLabel.RightToLeft = RightToLeft.Yes;
 
             }
             else if (Lang.SelectedItem.ToString()=="English")
@@ -405,6 +407,9 @@ namespace myfirstapp
                 CalClear.Text = "Clear";
                 EquCleaner.Text = "Clear";
                 EquSolver.Text = "Calculate";
+                RootVarLabel.Text = ": Main Variable";
+                RootVarLabel.Font = new Font("Arial", 12);
+                RootVarLabel.RightToLeft = RightToLeft.No;
             }
         }
         
@@ -635,9 +640,6 @@ namespace myfirstapp
             RootsBox.Text = "0";
         }
 
-        private void RootVarBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
