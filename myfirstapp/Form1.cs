@@ -589,12 +589,6 @@ namespace myfirstapp
 
             string str(byte[] x) => Encoding.Default.GetString(x);
 
-//            Console.WriteLine("ERRORS : ");
-//            Console.WriteLine(str(errors.ToArray()));
-//            Console.WriteLine();
-//            Console.WriteLine("Results : ");
-//            Console.WriteLine(str(results.ToArray()));
-
             return (str(results.ToArray()));
         }
 

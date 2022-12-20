@@ -354,7 +354,7 @@
             // 
             this.check.BackColor = System.Drawing.Color.SpringGreen;
             this.check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.check.Location = new System.Drawing.Point(171, 525);
+            this.check.Location = new System.Drawing.Point(174, 525);
             this.check.Name = "check";
             this.check.Size = new System.Drawing.Size(27, 24);
             this.check.TabIndex = 28;
@@ -598,7 +598,7 @@
             this.Next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Next.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Next.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Next.Location = new System.Drawing.Point(71, 1);
+            this.Next.Location = new System.Drawing.Point(72, 1);
             this.Next.Name = "Next";
             this.Next.Size = new System.Drawing.Size(40, 30);
             this.Next.TabIndex = 32;
