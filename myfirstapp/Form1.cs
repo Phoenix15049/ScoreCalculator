@@ -319,8 +319,6 @@ namespace myfirstapp
 
                 Double SumN = 0;
                 int SumV = 0;
-
-
                 for (int i = 0; i < 10; i++)
                 {
                     SumN += Scores[i] * Vaheds[i];
@@ -375,7 +373,6 @@ namespace myfirstapp
             Ans.Text = "";
 
         }
-
         private void check_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Test");
@@ -412,9 +409,6 @@ namespace myfirstapp
                 RootVarLabel.RightToLeft = RightToLeft.No;
             }
         }
-        
-        
-
         private void Prev_Click(object sender, EventArgs e)
         {
             if (PageIndex>0 )
@@ -435,8 +429,6 @@ namespace myfirstapp
         {
             Console.WriteLine(Expbox.Text);
 
-
-
             //#------------------------ C# Solver :            
             //            try
             //            {
@@ -450,10 +442,6 @@ namespace myfirstapp
             //                AnsBox.ForeColor = Color.Red;
             //                AnsBox.Text = "Invalid expression";
             //            }
-
-
-
-
             //#------------------------ Python Solver :   
             String CalpyAns = IronPython2(Expbox.Text);
             if(CalpyAns != "")
@@ -467,8 +455,6 @@ namespace myfirstapp
                 AnsBox.Text = "Invalid expression";
             }
             Console.WriteLine(CalpyAns);
-            
-
         }
 
         private void Taghsim_Click(object sender, EventArgs e)
