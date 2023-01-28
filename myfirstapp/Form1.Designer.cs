@@ -315,7 +315,7 @@
             this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Clear.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Clear.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Clear.Location = new System.Drawing.Point(203, 446);
+            this.Clear.Location = new System.Drawing.Point(199, 446);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(80, 35);
             this.Clear.TabIndex = 25;
@@ -354,7 +354,7 @@
             // 
             this.check.BackColor = System.Drawing.Color.SpringGreen;
             this.check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.check.Location = new System.Drawing.Point(174, 525);
+            this.check.Location = new System.Drawing.Point(175, 525);
             this.check.Name = "check";
             this.check.Size = new System.Drawing.Size(27, 24);
             this.check.TabIndex = 28;
@@ -439,7 +439,7 @@
             this.P_Baz.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.P_Baz.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.P_Baz.Image = global::myfirstapp.Properties.Resources.Prantez_baz;
-            this.P_Baz.Location = new System.Drawing.Point(267, 299);
+            this.P_Baz.Location = new System.Drawing.Point(269, 299);
             this.P_Baz.Name = "P_Baz";
             this.P_Baz.Size = new System.Drawing.Size(60, 50);
             this.P_Baz.TabIndex = 34;
@@ -657,7 +657,7 @@
             this.EquCleaner.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EquCleaner.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.EquCleaner.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.EquCleaner.Location = new System.Drawing.Point(198, 445);
+            this.EquCleaner.Location = new System.Drawing.Point(200, 446);
             this.EquCleaner.Name = "EquCleaner";
             this.EquCleaner.Size = new System.Drawing.Size(80, 35);
             this.EquCleaner.TabIndex = 29;
@@ -728,9 +728,9 @@
             this.Controls.Add(this.check);
             this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Page2);
             this.Controls.Add(this.Page1);
             this.Controls.Add(this.Page3);
+            this.Controls.Add(this.Page2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
