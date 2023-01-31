@@ -457,7 +457,7 @@
             this.Menha.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Menha.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Menha.Image = global::myfirstapp.Properties.Resources.Menha1;
-            this.Menha.Location = new System.Drawing.Point(201, 299);
+            this.Menha.Location = new System.Drawing.Point(202, 299);
             this.Menha.Name = "Menha";
             this.Menha.Size = new System.Drawing.Size(60, 50);
             this.Menha.TabIndex = 33;
