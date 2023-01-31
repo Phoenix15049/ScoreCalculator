@@ -81,7 +81,7 @@
             this.RootsBox = new System.Windows.Forms.TextBox();
             this.EquBox = new System.Windows.Forms.TextBox();
             this.EquSolver = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Splitter1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.Page1.SuspendLayout();
             this.Page2.SuspendLayout();
@@ -669,7 +669,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.SeaGreen;
-            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.Splitter1);
             this.panel4.Controls.Add(this.RootsBox);
             this.panel4.Controls.Add(this.EquBox);
             this.panel4.Location = new System.Drawing.Point(7, 352);
@@ -718,15 +718,15 @@
             this.EquSolver.UseVisualStyleBackColor = false;
             this.EquSolver.Click += new System.EventHandler(this.EquSolver_Click);
             // 
-            // label1
+            // Splitter1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 39);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(371, 16);
-            this.label1.TabIndex = 40;
-            this.label1.Text = "____________________________________________________\r\n";
+            this.Splitter1.AutoSize = true;
+            this.Splitter1.Location = new System.Drawing.Point(8, 39);
+            this.Splitter1.Margin = new System.Windows.Forms.Padding(0);
+            this.Splitter1.Name = "Splitter1";
+            this.Splitter1.Size = new System.Drawing.Size(371, 16);
+            this.Splitter1.TabIndex = 40;
+            this.Splitter1.Text = "____________________________________________________\r\n";
             // 
             // Form1
             // 
@@ -819,7 +819,7 @@
         private System.Windows.Forms.Button EquSolver;
         private System.Windows.Forms.Label RootVarLabel;
         private System.Windows.Forms.TextBox RootVarBox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Splitter1;
     }
 }
 
