@@ -721,7 +721,7 @@
             // Splitter1
             // 
             this.Splitter1.AutoSize = true;
-            this.Splitter1.Location = new System.Drawing.Point(0, 42);
+            this.Splitter1.Location = new System.Drawing.Point(-3, 42);
             this.Splitter1.Margin = new System.Windows.Forms.Padding(0);
             this.Splitter1.Name = "Splitter1";
             this.Splitter1.Size = new System.Drawing.Size(371, 16);
