@@ -620,7 +620,5 @@ namespace myfirstapp
             EquBox.Text = "";
             RootsBox.Text = "0";
         }
-
-        
     }
 }
