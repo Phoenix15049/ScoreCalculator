@@ -82,6 +82,7 @@
             this.EquBox = new System.Windows.Forms.TextBox();
             this.EquSolver = new System.Windows.Forms.Button();
             this.Splitter1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.Page1.SuspendLayout();
             this.Page2.SuspendLayout();
@@ -529,6 +530,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.AnsBox);
             this.panel2.Controls.Add(this.Expbox);
             this.panel2.Location = new System.Drawing.Point(7, 352);
@@ -728,6 +730,16 @@
             this.Splitter1.TabIndex = 40;
             this.Splitter1.Text = "____________________________________________________\r\n";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(-7, 43);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(371, 16);
+            this.label1.TabIndex = 41;
+            this.label1.Text = "____________________________________________________\r\n";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -820,6 +832,7 @@
         private System.Windows.Forms.Label RootVarLabel;
         private System.Windows.Forms.TextBox RootVarBox;
         private System.Windows.Forms.Label Splitter1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
