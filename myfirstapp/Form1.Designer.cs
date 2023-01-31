@@ -317,7 +317,7 @@
             this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Clear.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Clear.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Clear.Location = new System.Drawing.Point(199, 446);
+            this.Clear.Location = new System.Drawing.Point(200, 446);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(80, 35);
             this.Clear.TabIndex = 25;
@@ -519,7 +519,7 @@
             this.CalClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CalClear.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.CalClear.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.CalClear.Location = new System.Drawing.Point(198, 446);
+            this.CalClear.Location = new System.Drawing.Point(200, 446);
             this.CalClear.Name = "CalClear";
             this.CalClear.Size = new System.Drawing.Size(80, 35);
             this.CalClear.TabIndex = 29;
@@ -712,7 +712,7 @@
             this.EquSolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EquSolver.Font = new System.Drawing.Font("B Koodak", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.EquSolver.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.EquSolver.Location = new System.Drawing.Point(284, 445);
+            this.EquSolver.Location = new System.Drawing.Point(284, 446);
             this.EquSolver.Name = "EquSolver";
             this.EquSolver.Size = new System.Drawing.Size(110, 35);
             this.EquSolver.TabIndex = 27;
