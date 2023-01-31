@@ -669,9 +669,9 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel4.Controls.Add(this.EquBox);
             this.panel4.Controls.Add(this.Splitter1);
             this.panel4.Controls.Add(this.RootsBox);
-            this.panel4.Controls.Add(this.EquBox);
             this.panel4.Location = new System.Drawing.Point(7, 352);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(384, 87);
@@ -721,7 +721,7 @@
             // Splitter1
             // 
             this.Splitter1.AutoSize = true;
-            this.Splitter1.Location = new System.Drawing.Point(8, 39);
+            this.Splitter1.Location = new System.Drawing.Point(6, 42);
             this.Splitter1.Margin = new System.Windows.Forms.Padding(0);
             this.Splitter1.Name = "Splitter1";
             this.Splitter1.Size = new System.Drawing.Size(371, 16);

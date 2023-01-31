@@ -30,6 +30,7 @@ namespace myfirstapp
         public int[] Vaheds = new int[10];
 
         
+        
 
         public Form1()
         {
@@ -75,7 +76,7 @@ namespace myfirstapp
             listPanel.Add(Page3);
             listPanel[PageIndex].BringToFront();
 
-
+            Splitter1.BackColor = System.Drawing.Color.Transparent;
 
 
 
