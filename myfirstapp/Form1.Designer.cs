@@ -307,7 +307,7 @@
             this.panel1.Controls.Add(this.Ans);
             this.panel1.Location = new System.Drawing.Point(7, 390);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(387, 49);
+            this.panel1.Size = new System.Drawing.Size(384, 49);
             this.panel1.TabIndex = 24;
             // 
             // Clear
@@ -723,7 +723,7 @@
             // Splitter1
             // 
             this.Splitter1.AutoSize = true;
-            this.Splitter1.Location = new System.Drawing.Point(-3, 42);
+            this.Splitter1.Location = new System.Drawing.Point(-4, 42);
             this.Splitter1.Margin = new System.Windows.Forms.Padding(0);
             this.Splitter1.Name = "Splitter1";
             this.Splitter1.Size = new System.Drawing.Size(371, 16);
@@ -733,7 +733,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-3, 42);
+            this.label1.Location = new System.Drawing.Point(-4, 42);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(371, 16);
