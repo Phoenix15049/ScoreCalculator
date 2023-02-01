@@ -101,7 +101,7 @@
             // 
             // V1
             // 
-            this.V1.Location = new System.Drawing.Point(109, 34);
+            this.V1.Location = new System.Drawing.Point(108, 34);
             this.V1.MaxLength = 1;
             this.V1.Name = "V1";
             this.V1.Size = new System.Drawing.Size(40, 22);
@@ -117,7 +117,7 @@
             // 
             // V2
             // 
-            this.V2.Location = new System.Drawing.Point(109, 71);
+            this.V2.Location = new System.Drawing.Point(108, 71);
             this.V2.MaxLength = 1;
             this.V2.Name = "V2";
             this.V2.Size = new System.Drawing.Size(40, 22);
@@ -133,7 +133,7 @@
             // 
             // V3
             // 
-            this.V3.Location = new System.Drawing.Point(109, 111);
+            this.V3.Location = new System.Drawing.Point(108, 111);
             this.V3.MaxLength = 1;
             this.V3.Name = "V3";
             this.V3.Size = new System.Drawing.Size(40, 22);
@@ -149,7 +149,7 @@
             // 
             // V4
             // 
-            this.V4.Location = new System.Drawing.Point(109, 151);
+            this.V4.Location = new System.Drawing.Point(108, 151);
             this.V4.MaxLength = 1;
             this.V4.Name = "V4";
             this.V4.Size = new System.Drawing.Size(40, 22);
@@ -165,7 +165,7 @@
             // 
             // V5
             // 
-            this.V5.Location = new System.Drawing.Point(109, 191);
+            this.V5.Location = new System.Drawing.Point(108, 191);
             this.V5.MaxLength = 1;
             this.V5.Name = "V5";
             this.V5.Size = new System.Drawing.Size(40, 22);
@@ -181,7 +181,7 @@
             // 
             // V6
             // 
-            this.V6.Location = new System.Drawing.Point(109, 230);
+            this.V6.Location = new System.Drawing.Point(108, 230);
             this.V6.MaxLength = 1;
             this.V6.Name = "V6";
             this.V6.Size = new System.Drawing.Size(40, 22);
@@ -197,7 +197,7 @@
             // 
             // V7
             // 
-            this.V7.Location = new System.Drawing.Point(109, 269);
+            this.V7.Location = new System.Drawing.Point(108, 269);
             this.V7.MaxLength = 1;
             this.V7.Name = "V7";
             this.V7.Size = new System.Drawing.Size(40, 22);
@@ -213,7 +213,7 @@
             // 
             // V8
             // 
-            this.V8.Location = new System.Drawing.Point(109, 312);
+            this.V8.Location = new System.Drawing.Point(108, 312);
             this.V8.MaxLength = 1;
             this.V8.Name = "V8";
             this.V8.Size = new System.Drawing.Size(40, 22);
@@ -229,7 +229,7 @@
             // 
             // V9
             // 
-            this.V9.Location = new System.Drawing.Point(109, 352);
+            this.V9.Location = new System.Drawing.Point(108, 352);
             this.V9.MaxLength = 1;
             this.V9.Name = "V9";
             this.V9.Size = new System.Drawing.Size(40, 22);
@@ -269,7 +269,7 @@
             this.Vahed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Vahed.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Vahed.ForeColor = System.Drawing.Color.Azure;
-            this.Vahed.Location = new System.Drawing.Point(112, 7);
+            this.Vahed.Location = new System.Drawing.Point(111, 7);
             this.Vahed.Name = "Vahed";
             this.Vahed.Size = new System.Drawing.Size(37, 21);
             this.Vahed.TabIndex = 21;
