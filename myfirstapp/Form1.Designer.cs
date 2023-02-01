@@ -93,7 +93,7 @@
             // 
             // N1
             // 
-            this.N1.Location = new System.Drawing.Point(17, 34);
+            this.N1.Location = new System.Drawing.Point(16, 34);
             this.N1.MaxLength = 5;
             this.N1.Name = "N1";
             this.N1.Size = new System.Drawing.Size(75, 22);
@@ -109,7 +109,7 @@
             // 
             // N2
             // 
-            this.N2.Location = new System.Drawing.Point(17, 71);
+            this.N2.Location = new System.Drawing.Point(16, 71);
             this.N2.MaxLength = 5;
             this.N2.Name = "N2";
             this.N2.Size = new System.Drawing.Size(75, 22);
@@ -125,7 +125,7 @@
             // 
             // N3
             // 
-            this.N3.Location = new System.Drawing.Point(17, 111);
+            this.N3.Location = new System.Drawing.Point(16, 111);
             this.N3.MaxLength = 5;
             this.N3.Name = "N3";
             this.N3.Size = new System.Drawing.Size(75, 22);
@@ -141,7 +141,7 @@
             // 
             // N4
             // 
-            this.N4.Location = new System.Drawing.Point(17, 151);
+            this.N4.Location = new System.Drawing.Point(16, 151);
             this.N4.MaxLength = 5;
             this.N4.Name = "N4";
             this.N4.Size = new System.Drawing.Size(75, 22);
@@ -157,7 +157,7 @@
             // 
             // N5
             // 
-            this.N5.Location = new System.Drawing.Point(17, 191);
+            this.N5.Location = new System.Drawing.Point(16, 191);
             this.N5.MaxLength = 5;
             this.N5.Name = "N5";
             this.N5.Size = new System.Drawing.Size(75, 22);
@@ -173,7 +173,7 @@
             // 
             // N6
             // 
-            this.N6.Location = new System.Drawing.Point(17, 230);
+            this.N6.Location = new System.Drawing.Point(16, 230);
             this.N6.MaxLength = 5;
             this.N6.Name = "N6";
             this.N6.Size = new System.Drawing.Size(75, 22);
@@ -189,7 +189,7 @@
             // 
             // N7
             // 
-            this.N7.Location = new System.Drawing.Point(17, 269);
+            this.N7.Location = new System.Drawing.Point(16, 269);
             this.N7.MaxLength = 5;
             this.N7.Name = "N7";
             this.N7.Size = new System.Drawing.Size(75, 22);
@@ -205,7 +205,7 @@
             // 
             // N8
             // 
-            this.N8.Location = new System.Drawing.Point(17, 312);
+            this.N8.Location = new System.Drawing.Point(16, 312);
             this.N8.MaxLength = 5;
             this.N8.Name = "N8";
             this.N8.Size = new System.Drawing.Size(75, 22);
@@ -221,7 +221,7 @@
             // 
             // N9
             // 
-            this.N9.Location = new System.Drawing.Point(17, 352);
+            this.N9.Location = new System.Drawing.Point(16, 352);
             this.N9.MaxLength = 5;
             this.N9.Name = "N9";
             this.N9.Size = new System.Drawing.Size(75, 22);
@@ -256,7 +256,7 @@
             this.Nomreh.AutoSize = true;
             this.Nomreh.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Nomreh.ForeColor = System.Drawing.Color.Azure;
-            this.Nomreh.Location = new System.Drawing.Point(21, 7);
+            this.Nomreh.Location = new System.Drawing.Point(20, 7);
             this.Nomreh.Name = "Nomreh";
             this.Nomreh.Size = new System.Drawing.Size(36, 21);
             this.Nomreh.TabIndex = 20;
