@@ -68,6 +68,7 @@
             this.Taghsim = new System.Windows.Forms.Button();
             this.CalClear = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.AnsBox = new System.Windows.Forms.TextBox();
             this.Expbox = new System.Windows.Forms.TextBox();
             this.Calcul = new System.Windows.Forms.Button();
@@ -78,11 +79,10 @@
             this.RootVarLabel = new System.Windows.Forms.Label();
             this.EquCleaner = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.RootsBox = new System.Windows.Forms.TextBox();
             this.EquBox = new System.Windows.Forms.TextBox();
-            this.EquSolver = new System.Windows.Forms.Button();
             this.Splitter1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.RootsBox = new System.Windows.Forms.TextBox();
+            this.EquSolver = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Page1.SuspendLayout();
             this.Page2.SuspendLayout();
@@ -538,6 +538,16 @@
             this.panel2.Size = new System.Drawing.Size(384, 87);
             this.panel2.TabIndex = 28;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(-4, 42);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(371, 16);
+            this.label1.TabIndex = 41;
+            this.label1.Text = "____________________________________________________\r\n";
+            // 
             // AnsBox
             // 
             this.AnsBox.BackColor = System.Drawing.Color.SeaGreen;
@@ -679,6 +689,28 @@
             this.panel4.Size = new System.Drawing.Size(384, 87);
             this.panel4.TabIndex = 28;
             // 
+            // EquBox
+            // 
+            this.EquBox.BackColor = System.Drawing.Color.SeaGreen;
+            this.EquBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EquBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EquBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.EquBox.Location = new System.Drawing.Point(3, 4);
+            this.EquBox.Multiline = true;
+            this.EquBox.Name = "EquBox";
+            this.EquBox.Size = new System.Drawing.Size(378, 51);
+            this.EquBox.TabIndex = 0;
+            // 
+            // Splitter1
+            // 
+            this.Splitter1.AutoSize = true;
+            this.Splitter1.Location = new System.Drawing.Point(-4, 42);
+            this.Splitter1.Margin = new System.Windows.Forms.Padding(0);
+            this.Splitter1.Name = "Splitter1";
+            this.Splitter1.Size = new System.Drawing.Size(371, 16);
+            this.Splitter1.TabIndex = 40;
+            this.Splitter1.Text = "____________________________________________________\r\n";
+            // 
             // RootsBox
             // 
             this.RootsBox.BackColor = System.Drawing.Color.SeaGreen;
@@ -692,18 +724,6 @@
             this.RootsBox.Size = new System.Drawing.Size(378, 26);
             this.RootsBox.TabIndex = 1;
             this.RootsBox.Text = "0";
-            // 
-            // EquBox
-            // 
-            this.EquBox.BackColor = System.Drawing.Color.SeaGreen;
-            this.EquBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.EquBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EquBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.EquBox.Location = new System.Drawing.Point(3, 4);
-            this.EquBox.Multiline = true;
-            this.EquBox.Name = "EquBox";
-            this.EquBox.Size = new System.Drawing.Size(378, 51);
-            this.EquBox.TabIndex = 0;
             // 
             // EquSolver
             // 
@@ -720,26 +740,6 @@
             this.EquSolver.UseVisualStyleBackColor = false;
             this.EquSolver.Click += new System.EventHandler(this.EquSolver_Click);
             // 
-            // Splitter1
-            // 
-            this.Splitter1.AutoSize = true;
-            this.Splitter1.Location = new System.Drawing.Point(-4, 42);
-            this.Splitter1.Margin = new System.Windows.Forms.Padding(0);
-            this.Splitter1.Name = "Splitter1";
-            this.Splitter1.Size = new System.Drawing.Size(371, 16);
-            this.Splitter1.TabIndex = 40;
-            this.Splitter1.Text = "____________________________________________________\r\n";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-4, 42);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(371, 16);
-            this.label1.TabIndex = 41;
-            this.label1.Text = "____________________________________________________\r\n";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -752,9 +752,9 @@
             this.Controls.Add(this.check);
             this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Page2);
             this.Controls.Add(this.Page1);
             this.Controls.Add(this.Page3);
+            this.Controls.Add(this.Page2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
