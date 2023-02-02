@@ -332,7 +332,7 @@
             this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit.Font = new System.Drawing.Font("B Nazanin", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Exit.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Exit.Location = new System.Drawing.Point(376, 2);
+            this.Exit.Location = new System.Drawing.Point(377, 2);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(31, 27);
             this.Exit.TabIndex = 26;
@@ -752,9 +752,9 @@
             this.Controls.Add(this.check);
             this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Page1);
             this.Controls.Add(this.Page3);
             this.Controls.Add(this.Page2);
+            this.Controls.Add(this.Page1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
