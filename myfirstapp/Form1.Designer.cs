@@ -655,7 +655,7 @@
             this.RootVarLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RootVarLabel.Font = new System.Drawing.Font("B Koodak", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.RootVarLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.RootVarLabel.Location = new System.Drawing.Point(40, 315);
+            this.RootVarLabel.Location = new System.Drawing.Point(40, 314);
             this.RootVarLabel.Name = "RootVarLabel";
             this.RootVarLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RootVarLabel.Size = new System.Drawing.Size(98, 34);
