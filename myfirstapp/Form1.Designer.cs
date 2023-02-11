@@ -596,7 +596,7 @@
             this.Prev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Prev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Prev.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Prev.Location = new System.Drawing.Point(25, 1);
+            this.Prev.Location = new System.Drawing.Point(25, 2);
             this.Prev.Name = "Prev";
             this.Prev.Size = new System.Drawing.Size(40, 30);
             this.Prev.TabIndex = 31;
@@ -611,7 +611,7 @@
             this.Next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Next.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Next.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Next.Location = new System.Drawing.Point(72, 1);
+            this.Next.Location = new System.Drawing.Point(72, 2);
             this.Next.Name = "Next";
             this.Next.Size = new System.Drawing.Size(40, 30);
             this.Next.TabIndex = 32;
