@@ -101,7 +101,7 @@
             // 
             // V1
             // 
-            this.V1.Location = new System.Drawing.Point(108, 34);
+            this.V1.Location = new System.Drawing.Point(109, 34);
             this.V1.MaxLength = 1;
             this.V1.Name = "V1";
             this.V1.Size = new System.Drawing.Size(40, 22);
@@ -117,7 +117,7 @@
             // 
             // V2
             // 
-            this.V2.Location = new System.Drawing.Point(108, 71);
+            this.V2.Location = new System.Drawing.Point(109, 71);
             this.V2.MaxLength = 1;
             this.V2.Name = "V2";
             this.V2.Size = new System.Drawing.Size(40, 22);
@@ -133,7 +133,7 @@
             // 
             // V3
             // 
-            this.V3.Location = new System.Drawing.Point(108, 111);
+            this.V3.Location = new System.Drawing.Point(109, 111);
             this.V3.MaxLength = 1;
             this.V3.Name = "V3";
             this.V3.Size = new System.Drawing.Size(40, 22);
@@ -149,7 +149,7 @@
             // 
             // V4
             // 
-            this.V4.Location = new System.Drawing.Point(108, 151);
+            this.V4.Location = new System.Drawing.Point(109, 151);
             this.V4.MaxLength = 1;
             this.V4.Name = "V4";
             this.V4.Size = new System.Drawing.Size(40, 22);
@@ -165,7 +165,7 @@
             // 
             // V5
             // 
-            this.V5.Location = new System.Drawing.Point(108, 191);
+            this.V5.Location = new System.Drawing.Point(109, 191);
             this.V5.MaxLength = 1;
             this.V5.Name = "V5";
             this.V5.Size = new System.Drawing.Size(40, 22);
@@ -181,7 +181,7 @@
             // 
             // V6
             // 
-            this.V6.Location = new System.Drawing.Point(108, 230);
+            this.V6.Location = new System.Drawing.Point(109, 230);
             this.V6.MaxLength = 1;
             this.V6.Name = "V6";
             this.V6.Size = new System.Drawing.Size(40, 22);
@@ -197,7 +197,7 @@
             // 
             // V7
             // 
-            this.V7.Location = new System.Drawing.Point(108, 269);
+            this.V7.Location = new System.Drawing.Point(109, 269);
             this.V7.MaxLength = 1;
             this.V7.Name = "V7";
             this.V7.Size = new System.Drawing.Size(40, 22);
@@ -213,7 +213,7 @@
             // 
             // V8
             // 
-            this.V8.Location = new System.Drawing.Point(108, 312);
+            this.V8.Location = new System.Drawing.Point(109, 312);
             this.V8.MaxLength = 1;
             this.V8.Name = "V8";
             this.V8.Size = new System.Drawing.Size(40, 22);
@@ -229,7 +229,7 @@
             // 
             // V9
             // 
-            this.V9.Location = new System.Drawing.Point(108, 352);
+            this.V9.Location = new System.Drawing.Point(109, 352);
             this.V9.MaxLength = 1;
             this.V9.Name = "V9";
             this.V9.Size = new System.Drawing.Size(40, 22);
@@ -269,7 +269,7 @@
             this.Vahed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Vahed.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Vahed.ForeColor = System.Drawing.Color.Azure;
-            this.Vahed.Location = new System.Drawing.Point(111, 7);
+            this.Vahed.Location = new System.Drawing.Point(112, 7);
             this.Vahed.Name = "Vahed";
             this.Vahed.Size = new System.Drawing.Size(37, 21);
             this.Vahed.TabIndex = 21;
@@ -425,7 +425,7 @@
             this.P_Bste.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.P_Bste.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.P_Bste.Image = global::myfirstapp.Properties.Resources.Prantez_bste;
-            this.P_Bste.Location = new System.Drawing.Point(333, 299);
+            this.P_Bste.Location = new System.Drawing.Point(333, 298);
             this.P_Bste.Name = "P_Bste";
             this.P_Bste.Size = new System.Drawing.Size(60, 50);
             this.P_Bste.TabIndex = 35;
@@ -441,7 +441,7 @@
             this.P_Baz.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.P_Baz.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.P_Baz.Image = global::myfirstapp.Properties.Resources.Prantez_baz;
-            this.P_Baz.Location = new System.Drawing.Point(269, 299);
+            this.P_Baz.Location = new System.Drawing.Point(269, 298);
             this.P_Baz.Name = "P_Baz";
             this.P_Baz.Size = new System.Drawing.Size(60, 50);
             this.P_Baz.TabIndex = 34;
@@ -457,7 +457,7 @@
             this.Menha.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Menha.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Menha.Image = global::myfirstapp.Properties.Resources.Menha1;
-            this.Menha.Location = new System.Drawing.Point(202, 299);
+            this.Menha.Location = new System.Drawing.Point(202, 298);
             this.Menha.Name = "Menha";
             this.Menha.Size = new System.Drawing.Size(60, 50);
             this.Menha.TabIndex = 33;
@@ -473,7 +473,7 @@
             this.Jam.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Jam.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Jam.Image = global::myfirstapp.Properties.Resources.Jam1;
-            this.Jam.Location = new System.Drawing.Point(137, 299);
+            this.Jam.Location = new System.Drawing.Point(137, 298);
             this.Jam.Name = "Jam";
             this.Jam.Size = new System.Drawing.Size(60, 50);
             this.Jam.TabIndex = 32;
@@ -489,7 +489,7 @@
             this.Zarb.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Zarb.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Zarb.Image = global::myfirstapp.Properties.Resources.Zarb;
-            this.Zarb.Location = new System.Drawing.Point(72, 299);
+            this.Zarb.Location = new System.Drawing.Point(72, 298);
             this.Zarb.Name = "Zarb";
             this.Zarb.Size = new System.Drawing.Size(60, 50);
             this.Zarb.TabIndex = 31;
@@ -505,7 +505,7 @@
             this.Taghsim.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Taghsim.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Taghsim.Image = global::myfirstapp.Properties.Resources.Taghsim;
-            this.Taghsim.Location = new System.Drawing.Point(5, 300);
+            this.Taghsim.Location = new System.Drawing.Point(5, 299);
             this.Taghsim.Name = "Taghsim";
             this.Taghsim.Size = new System.Drawing.Size(60, 50);
             this.Taghsim.TabIndex = 30;
@@ -639,7 +639,7 @@
             this.RootVarBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RootVarBox.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RootVarBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.RootVarBox.Location = new System.Drawing.Point(8, 312);
+            this.RootVarBox.Location = new System.Drawing.Point(8, 311);
             this.RootVarBox.Margin = new System.Windows.Forms.Padding(5);
             this.RootVarBox.MaxLength = 1;
             this.RootVarBox.Multiline = true;
@@ -655,7 +655,7 @@
             this.RootVarLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RootVarLabel.Font = new System.Drawing.Font("B Koodak", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.RootVarLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.RootVarLabel.Location = new System.Drawing.Point(40, 314);
+            this.RootVarLabel.Location = new System.Drawing.Point(40, 313);
             this.RootVarLabel.Name = "RootVarLabel";
             this.RootVarLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RootVarLabel.Size = new System.Drawing.Size(98, 34);
@@ -752,9 +752,9 @@
             this.Controls.Add(this.check);
             this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
+            this.Controls.Add(this.Page1);
             this.Controls.Add(this.Page3);
             this.Controls.Add(this.Page2);
-            this.Controls.Add(this.Page1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
