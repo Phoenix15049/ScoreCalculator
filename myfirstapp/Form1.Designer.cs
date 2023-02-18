@@ -346,7 +346,7 @@
             this.Lang.Items.AddRange(new object[] {
             "فارسی - Persian",
             "English"});
-            this.Lang.Location = new System.Drawing.Point(11, 525);
+            this.Lang.Location = new System.Drawing.Point(12, 525);
             this.Lang.Name = "Lang";
             this.Lang.Size = new System.Drawing.Size(157, 24);
             this.Lang.TabIndex = 27;
@@ -356,7 +356,7 @@
             // 
             this.check.BackColor = System.Drawing.Color.SpringGreen;
             this.check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.check.Location = new System.Drawing.Point(175, 525);
+            this.check.Location = new System.Drawing.Point(176, 525);
             this.check.Name = "check";
             this.check.Size = new System.Drawing.Size(27, 24);
             this.check.TabIndex = 28;
@@ -596,7 +596,7 @@
             this.Prev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Prev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Prev.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Prev.Location = new System.Drawing.Point(25, 2);
+            this.Prev.Location = new System.Drawing.Point(26, 2);
             this.Prev.Name = "Prev";
             this.Prev.Size = new System.Drawing.Size(40, 30);
             this.Prev.TabIndex = 31;
@@ -611,7 +611,7 @@
             this.Next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Next.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Next.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Next.Location = new System.Drawing.Point(72, 2);
+            this.Next.Location = new System.Drawing.Point(73, 2);
             this.Next.Name = "Next";
             this.Next.Size = new System.Drawing.Size(40, 30);
             this.Next.TabIndex = 32;
@@ -639,7 +639,7 @@
             this.RootVarBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RootVarBox.Font = new System.Drawing.Font("Cascadia Mono SemiBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RootVarBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.RootVarBox.Location = new System.Drawing.Point(8, 311);
+            this.RootVarBox.Location = new System.Drawing.Point(9, 311);
             this.RootVarBox.Margin = new System.Windows.Forms.Padding(5);
             this.RootVarBox.MaxLength = 1;
             this.RootVarBox.Multiline = true;
@@ -655,7 +655,7 @@
             this.RootVarLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RootVarLabel.Font = new System.Drawing.Font("B Koodak", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.RootVarLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.RootVarLabel.Location = new System.Drawing.Point(40, 313);
+            this.RootVarLabel.Location = new System.Drawing.Point(41, 313);
             this.RootVarLabel.Name = "RootVarLabel";
             this.RootVarLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RootVarLabel.Size = new System.Drawing.Size(98, 34);
@@ -752,9 +752,9 @@
             this.Controls.Add(this.check);
             this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Page1);
             this.Controls.Add(this.Page3);
             this.Controls.Add(this.Page2);
+            this.Controls.Add(this.Page1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
