@@ -425,7 +425,7 @@
             this.P_Bste.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.P_Bste.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.P_Bste.Image = global::myfirstapp.Properties.Resources.Prantez_bste;
-            this.P_Bste.Location = new System.Drawing.Point(331, 178);
+            this.P_Bste.Location = new System.Drawing.Point(333, 296);
             this.P_Bste.Name = "P_Bste";
             this.P_Bste.Size = new System.Drawing.Size(60, 50);
             this.P_Bste.TabIndex = 35;
@@ -441,7 +441,7 @@
             this.P_Baz.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.P_Baz.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.P_Baz.Image = global::myfirstapp.Properties.Resources.Prantez_baz;
-            this.P_Baz.Location = new System.Drawing.Point(267, 178);
+            this.P_Baz.Location = new System.Drawing.Point(269, 296);
             this.P_Baz.Name = "P_Baz";
             this.P_Baz.Size = new System.Drawing.Size(60, 50);
             this.P_Baz.TabIndex = 34;
@@ -457,7 +457,7 @@
             this.Menha.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Menha.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Menha.Image = global::myfirstapp.Properties.Resources.Menha1;
-            this.Menha.Location = new System.Drawing.Point(200, 178);
+            this.Menha.Location = new System.Drawing.Point(202, 296);
             this.Menha.Name = "Menha";
             this.Menha.Size = new System.Drawing.Size(60, 50);
             this.Menha.TabIndex = 33;
@@ -473,7 +473,7 @@
             this.Jam.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Jam.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Jam.Image = global::myfirstapp.Properties.Resources.Jam1;
-            this.Jam.Location = new System.Drawing.Point(135, 178);
+            this.Jam.Location = new System.Drawing.Point(137, 296);
             this.Jam.Name = "Jam";
             this.Jam.Size = new System.Drawing.Size(60, 50);
             this.Jam.TabIndex = 32;
@@ -489,7 +489,7 @@
             this.Zarb.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Zarb.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Zarb.Image = global::myfirstapp.Properties.Resources.Zarb;
-            this.Zarb.Location = new System.Drawing.Point(70, 178);
+            this.Zarb.Location = new System.Drawing.Point(72, 296);
             this.Zarb.Name = "Zarb";
             this.Zarb.Size = new System.Drawing.Size(60, 50);
             this.Zarb.TabIndex = 31;
@@ -505,7 +505,7 @@
             this.Taghsim.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(180)));
             this.Taghsim.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Taghsim.Image = global::myfirstapp.Properties.Resources.Taghsim;
-            this.Taghsim.Location = new System.Drawing.Point(3, 179);
+            this.Taghsim.Location = new System.Drawing.Point(5, 297);
             this.Taghsim.Name = "Taghsim";
             this.Taghsim.Size = new System.Drawing.Size(60, 50);
             this.Taghsim.TabIndex = 30;
@@ -596,7 +596,7 @@
             this.Prev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Prev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Prev.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Prev.Location = new System.Drawing.Point(162, 2);
+            this.Prev.Location = new System.Drawing.Point(25, 2);
             this.Prev.Name = "Prev";
             this.Prev.Size = new System.Drawing.Size(40, 30);
             this.Prev.TabIndex = 31;
@@ -611,7 +611,7 @@
             this.Next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Next.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Next.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Next.Location = new System.Drawing.Point(209, 2);
+            this.Next.Location = new System.Drawing.Point(72, 2);
             this.Next.Name = "Next";
             this.Next.Size = new System.Drawing.Size(40, 30);
             this.Next.TabIndex = 32;
