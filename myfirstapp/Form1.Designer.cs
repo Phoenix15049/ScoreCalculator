@@ -332,7 +332,7 @@
             this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit.Font = new System.Drawing.Font("B Nazanin", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.Exit.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Exit.Location = new System.Drawing.Point(377, 2);
+            this.Exit.Location = new System.Drawing.Point(378, 2);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(31, 27);
             this.Exit.TabIndex = 26;
@@ -346,7 +346,7 @@
             this.Lang.Items.AddRange(new object[] {
             "فارسی - Persian",
             "English"});
-            this.Lang.Location = new System.Drawing.Point(11, 525);
+            this.Lang.Location = new System.Drawing.Point(12, 525);
             this.Lang.Name = "Lang";
             this.Lang.Size = new System.Drawing.Size(157, 24);
             this.Lang.TabIndex = 27;
@@ -356,7 +356,7 @@
             // 
             this.check.BackColor = System.Drawing.Color.SpringGreen;
             this.check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.check.Location = new System.Drawing.Point(175, 525);
+            this.check.Location = new System.Drawing.Point(176, 525);
             this.check.Name = "check";
             this.check.Size = new System.Drawing.Size(27, 24);
             this.check.TabIndex = 28;
@@ -393,7 +393,7 @@
             this.Page1.Controls.Add(this.N8);
             this.Page1.Controls.Add(this.N7);
             this.Page1.Controls.Add(this.V7);
-            this.Page1.Location = new System.Drawing.Point(8, 33);
+            this.Page1.Location = new System.Drawing.Point(9, 33);
             this.Page1.Name = "Page1";
             this.Page1.Size = new System.Drawing.Size(399, 490);
             this.Page1.TabIndex = 29;
@@ -411,7 +411,7 @@
             this.Page2.Controls.Add(this.CalClear);
             this.Page2.Controls.Add(this.panel2);
             this.Page2.Controls.Add(this.Calcul);
-            this.Page2.Location = new System.Drawing.Point(8, 33);
+            this.Page2.Location = new System.Drawing.Point(9, 33);
             this.Page2.Name = "Page2";
             this.Page2.Size = new System.Drawing.Size(399, 490);
             this.Page2.TabIndex = 30;
@@ -596,7 +596,7 @@
             this.Prev.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Prev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Prev.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Prev.Location = new System.Drawing.Point(25, 2);
+            this.Prev.Location = new System.Drawing.Point(26, 2);
             this.Prev.Name = "Prev";
             this.Prev.Size = new System.Drawing.Size(40, 30);
             this.Prev.TabIndex = 31;
@@ -611,7 +611,7 @@
             this.Next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Next.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Next.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Next.Location = new System.Drawing.Point(72, 2);
+            this.Next.Location = new System.Drawing.Point(73, 2);
             this.Next.Name = "Next";
             this.Next.Size = new System.Drawing.Size(40, 30);
             this.Next.TabIndex = 32;
@@ -628,7 +628,7 @@
             this.Page3.Controls.Add(this.EquCleaner);
             this.Page3.Controls.Add(this.panel4);
             this.Page3.Controls.Add(this.EquSolver);
-            this.Page3.Location = new System.Drawing.Point(8, 33);
+            this.Page3.Location = new System.Drawing.Point(9, 33);
             this.Page3.Name = "Page3";
             this.Page3.Size = new System.Drawing.Size(399, 490);
             this.Page3.TabIndex = 33;
@@ -752,9 +752,9 @@
             this.Controls.Add(this.check);
             this.Controls.Add(this.Lang);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Page2);
             this.Controls.Add(this.Page1);
             this.Controls.Add(this.Page3);
+            this.Controls.Add(this.Page2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
