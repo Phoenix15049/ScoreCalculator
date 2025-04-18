@@ -1,6 +1,6 @@
 # ScoreCalculator
 
-My first program written with C#.
+My first program written with C# (dude , this program was written around 2015 or 14 in .net 4, so don’t expect anything fancy )
 
 
 The only thing this program gives is that it makes the calculation of scores easier for you.
